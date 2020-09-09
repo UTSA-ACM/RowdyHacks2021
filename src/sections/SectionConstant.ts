@@ -23,8 +23,7 @@ const FAQQuestions: Array<string> = [
   "How big are the teams?",
   "What should my project be?",
   "Can I work on previous projects?",
-  "Will there be travel reimbursements?",
-  "What if I'm not a UTSA student?",
+    "What if I'm not a UTSA student?",
   "What should I bring?",
   "What actions will be taking in regards to coronavirus(COVID-19)?",
   "What if this FAQ didn't answer my question?"
@@ -37,7 +36,6 @@ const FAQAnswers: Array<any> = [
   "Teams can consist of up to 4 students! We encourage hackers to participate as part of a team. Don't have a team? No worries, we will have an opportunity before the event for you to meet other hackers and form teams!",
   "Anything! You can make a new social media website, a simple weather app, a sentimental analysis tool for tweets...anything in your wildest imagination, you can create. Your team can come prepared with an idea or come up with one on the spot.",
   "No, all projects must be built from scratch. However, you can start brainstorming your ideas prior to the event. Any team found working on previous projects will be automatically disqualified.",
-  "RowdyHacks will be completely online, so RowdyHacks will not be providing any sort of reimbursement for traveling.",
   "No problem! RowdyHacks is open to ANY college/university student over 18 years old. We're so excited to see students from all over collaborating and innovating together at this year's event.",
   "Any hardware you plan on using for the project -- your laptop, charger, portable mouse, phone, Raspberry Pi, VR headset, robots, etc. You might also want to bring a change of clothes and toiletries.",
   "We will be moving everything to virtual events. Check-in will also only be conducted online. For more information please go to https://www.rowdyhacks.io/updates",
