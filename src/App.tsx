@@ -15,11 +15,11 @@ import LocationSection from "./sections/Location/LocationSection";
 
 const titleNames = [
   { title: "About", link: "/#about" },
-  { title: "Tracks", link: "/#tracks" },
-  { title: "FAQ", link: "/#faq" },
-  { title: "Location", link: "/#location" },
-  { title: "Schedule", link: "/#schedule" },
-  { title: "Partners", link: "/#partners" }
+  // { title: "Tracks", link: "/#tracks" },
+  // { title: "FAQ", link: "/#faq" },
+  // { title: "Location", link: "/#location" },
+  // { title: "Schedule", link: "/#schedule" },
+  // { title: "Partners", link: "/#partners" }
 ];
 
 const LazyLoadedSections = React.lazy(() =>
@@ -47,7 +47,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <Holder>
-        <Alerts />
+        {/*<Alerts />*/}
         <NavBar titles={titleNames} />
       </Holder>
       <Hero />

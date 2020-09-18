@@ -32,7 +32,7 @@ const FooterBannerImage = styled.img`
 const SocialMediaContent: React.FC = () => {
   return (
     <SocialMediaWrapper>
-      <FooterBannerImage src={FooterBanner} />
+      {/*<FooterBannerImage src={FooterBanner} />*/}
       <SocialMediaTitleWrapper>SOCIAL MEDIA</SocialMediaTitleWrapper>
       <SocialTextWrapper>{SocialMediaText}</SocialTextWrapper>
       <LogoContainer>
@@ -57,15 +57,15 @@ const SocialMediaContent: React.FC = () => {
           team@rowdyhacks.org
         </EmailLink>
       </FooterContainer>
-      <CodeofConduct>
-        <a
-          href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          MLH Code of Conduct
-        </a>
-      </CodeofConduct>
+      {/*<CodeofConduct>*/}
+      {/*  <a*/}
+      {/*    href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"*/}
+      {/*    target="_blank"*/}
+      {/*    rel="noopener noreferrer"*/}
+      {/*  >*/}
+      {/*    MLH Code of Conduct*/}
+      {/*  </a>*/}
+      {/*</CodeofConduct>*/}
     </SocialMediaWrapper>
   );
 };
