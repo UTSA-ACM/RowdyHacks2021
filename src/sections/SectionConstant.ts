@@ -23,7 +23,7 @@ const FAQQuestions: Array<string> = [
   "How big are the teams?",
   "What should my project be?",
   "Can I work on previous projects?",
-    "What if I'm not a UTSA student?",
+  "What if I'm not a UTSA student?",
   "What should I bring?",
   "What actions will be taking in regards to coronavirus(COVID-19)?",
   "What if this FAQ didn't answer my question?"
@@ -38,12 +38,12 @@ const FAQAnswers: Array<any> = [
   "No, all projects must be built from scratch. However, you can start brainstorming your ideas prior to the event. Any team found working on previous projects will be automatically disqualified.",
   "No problem! RowdyHacks is open to ANY college/university student over 18 years old. We're so excited to see students from all over collaborating and innovating together at this year's event.",
   "Any hardware you plan on using for the project -- your laptop, charger, portable mouse, phone, Raspberry Pi, VR headset, robots, etc. You might also want to bring a change of clothes and toiletries.",
-  "We will be moving everything to virtual events. Check-in will also only be conducted online. For more information please go to https://www.rowdyhacks.io/updates",
+  "We will be deciding on the future of RowdyHacks soon. Keep up to date through our social medias and our mailing list.",
   "Please e-mail team@rowdyhacks.org. We will get back to you and give you the best support."
 ];
 
 const LocationText: string =
-  "RowdyHacks will be held completely online. All check-in will be virtual from 8 AM to 12 PM on March 28th.";
+  "RowdyHacks 2021 is currently keeping an eye on the COVID situation. We will publish an update once we decide to be either Online or In-Person.";
 
 const SocialMediaText: string =
   "For live updates and announcements, follow us on social media!";
@@ -78,7 +78,7 @@ const UpdatesConstants = {
   updates: [
     {
       title: "Coronavirus Update",
-      date: "March 15, 2020",
+      date: "Mar. 15, 2020",
       message: [
         "RowdyHacks 2020 is in 13 days! 🎉 The health and safety of all those involved in RowdyHacks is our number one priority, and any decision our board makes will put that first and foremost. Due to the Coronavirus COVID-19, we have decided to move RowdyHacks online. This means RowdyHacks will be virtual! All workshops, ceremonies, and activities will still be available through streaming and recordings. All prizes and swag will be shipped out as well! 🎁📦",
         "RowdyHacks swag is on the way and it is a necessity that you get all the amazing swag (shirts, mugs, stickers, socks, snacks, +more!). If you are local to San Antonio, TX, we will be on UTSA Campus in the HEB Student Union Galleria on Saturday March 28th from 8 AM - 12 PM giving out all the RowdyHacks swag you could ever want. If you're not local, please update your hacker application with a valid mailing address so we can send you all your goodies. "
@@ -86,9 +86,16 @@ const UpdatesConstants = {
     },
     {
       title: "New Coronavirus Update",
-      date: "March 20, 2020",
+      date: "Mar. 20, 2020",
       message: [
         "RowdyHacks 2020 is in 8 days! 🎉 The health and safety of all those involved in RowdyHacks is our number one priority, and any decision our board makes will put that first and foremost. All check-in will now be conducted solely online! There will be no in person pick up for getting any swag."
+      ]
+    },
+    {
+      title: "2021 Update",
+      date: "Sept. 19, 2020",
+      message: [
+        "As the new officers of Rowdyhacks 2021 continue to monitor and update we will post updates and emails accordingly so keep an eye out."
       ]
     }
   ]

@@ -33,10 +33,10 @@ function HeroTitle() {
           theme: { letterSpacing: letterSpacing(), fontSize: fontSize(100) }
         }}
       >
-        {"ROWDYHACKS"}
+        {"ROWDYHACKS 2021"}
       </TitleWrapper>
       <DateWrapper {...{ theme: { fontSize: fontSize(30) } }}>
-        {"March 28-29 2020 | NOW COMPLETELY ONLINE"}
+        {"INFORMATION COMING SOON!"}
       </DateWrapper>
       <ButtonWrapper>
         <TitleButton
@@ -44,22 +44,22 @@ function HeroTitle() {
             window.location.href = "/day-of-event";
           }}
         >
-          Day Of Event Information
+          Sign Up for Our Mailing List
         </TitleButton>
-        <TitleButton
-          onClick={() => {
-            window.location.href = "https://rowdyhacks.typeform.com/to/ImTIU6";
-          }}
-        >
-          Apply to be a volunteer/mentor!
-        </TitleButton>
-        <TitleButton
-          onClick={() => {
-            window.location.href = "https://apply.rowdyhacks.io/login.html";
-          }}
-        >
-          Check your profile!
-        </TitleButton>
+        {/*<TitleButton*/}
+        {/*  onClick={() => {*/}
+        {/*    window.location.href = "https://rowdyhacks.typeform.com/to/ImTIU6";*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  Apply to be a volunteer/mentor!*/}
+        {/*</TitleButton>*/}
+        {/*<TitleButton*/}
+        {/*  onClick={() => {*/}
+        {/*    window.location.href = "https://apply.rowdyhacks.io/login.html";*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  Check your profile!*/}
+        {/*</TitleButton>*/}
       </ButtonWrapper>
     </HeroTitleWrapper>
   );
