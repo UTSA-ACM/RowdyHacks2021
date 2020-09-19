@@ -54,7 +54,7 @@ const SocialMediaContent: React.FC = () => {
       <FooterContainer>
         {FooterText}
         <EmailLink href="mailto:sponsorship@rowdyhacks.org" target="_blank">
-          team@rowdyhacks.org
+          sponsorship@rowdyhacks.org
         </EmailLink>
       </FooterContainer>
       {/*<CodeofConduct>*/}

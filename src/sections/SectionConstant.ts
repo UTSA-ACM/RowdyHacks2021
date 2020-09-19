@@ -38,7 +38,7 @@ const FAQAnswers: Array<any> = [
   "No, all projects must be built from scratch. However, you can start brainstorming your ideas prior to the event. Any team found working on previous projects will be automatically disqualified.",
   "No problem! RowdyHacks is open to ANY college/university student over 18 years old. We're so excited to see students from all over collaborating and innovating together at this year's event.",
   "Any hardware you plan on using for the project -- your laptop, charger, portable mouse, phone, Raspberry Pi, VR headset, robots, etc. You might also want to bring a change of clothes and toiletries.",
-  "We will be deciding on RowdyHacks in the near future. Keep up to date through our social medias and our mailing list.",
+  "We will be deciding on the future of RowdyHacks soon. Keep up to date through our social medias and our mailing list.",
   "Please e-mail team@rowdyhacks.org. We will get back to you and give you the best support."
 ];
 
@@ -78,7 +78,7 @@ const UpdatesConstants = {
   updates: [
     {
       title: "Coronavirus Update",
-      date: "March 15, 2020",
+      date: "Mar. 15, 2020",
       message: [
         "RowdyHacks 2020 is in 13 days! 🎉 The health and safety of all those involved in RowdyHacks is our number one priority, and any decision our board makes will put that first and foremost. Due to the Coronavirus COVID-19, we have decided to move RowdyHacks online. This means RowdyHacks will be virtual! All workshops, ceremonies, and activities will still be available through streaming and recordings. All prizes and swag will be shipped out as well! 🎁📦",
         "RowdyHacks swag is on the way and it is a necessity that you get all the amazing swag (shirts, mugs, stickers, socks, snacks, +more!). If you are local to San Antonio, TX, we will be on UTSA Campus in the HEB Student Union Galleria on Saturday March 28th from 8 AM - 12 PM giving out all the RowdyHacks swag you could ever want. If you're not local, please update your hacker application with a valid mailing address so we can send you all your goodies. "
@@ -86,9 +86,154 @@ const UpdatesConstants = {
     },
     {
       title: "New Coronavirus Update",
-      date: "March 20, 2020",
+      date: "Mar. 20, 2020",
       message: [
         "RowdyHacks 2020 is in 8 days! 🎉 The health and safety of all those involved in RowdyHacks is our number one priority, and any decision our board makes will put that first and foremost. All check-in will now be conducted solely online! There will be no in person pick up for getting any swag."
+      ]
+    },
+    {
+      title: "2021 Update",
+      date: "Sept. 19, 2020",
+      message: [
+        "As the new officers of Rowdyhacks 2021 continue to monitor and update we will post updates and emails accordingly so keep an eye out."
+      ]
+    }
+  ]
+};
+
+const ScheduleConstants = {
+  days: [
+    {
+      date: "March 28th",
+      dayOfWeek: "Saturday",
+      events: [
+        {
+          title: "Check-in Begins",
+          time: "8:00 AM CST",
+          location: "Discord"
+        },
+        {
+          title: "Virtual Tabling",
+          time: "9:00 AM CST",
+          location: "Zoom (Sign up for time slots on Discord)"
+        },
+        {
+          title: "Opening Ceremony",
+          time: "11:00 AM CST",
+          location: "Youtube"
+        },
+        {
+          title: "Hacking Begins",
+          time: "12:00 PM CST",
+          location: ""
+        },
+        {
+          title: "Virtual Tabling Continues",
+          time: "12:00 PM CST",
+          location: "Zoom (Sign up for time slots on Discord)"
+        },
+        {
+          title: "Google Workshop: Google Geo",
+          time: "1:30 PM CST",
+          location: "Google Hangouts"
+        },
+        {
+          title: "Learners Workshop #1: Git/Github",
+          time: "1:30 PM CST",
+          location: "Zoom (Archives on Youtube)"
+        },
+        {
+          title:
+            "TechData Workshop: Tools to Increase Security Posture from IBM",
+          time: "1:30 PM CST",
+          location: "Zoom (Archives will be on Youtube)"
+        },
+        {
+          title: "Google Workshop: Open-source API",
+          time: "2:30 PM CST",
+          location: "Google Hangouts"
+        },
+        {
+          title: "Learners Workshop #2: Intro to Java",
+          time: "3:00 PM CST",
+          location: "Zoom (Archives on Youtube)"
+        },
+        {
+          title: "MLH Side Event: CTF",
+          time: "4:00 PM CST",
+          location: "Discord"
+        },
+        {
+          title: "Learners Workshop #3: Intro to Web Development",
+          time: "4:30 PM CST",
+          location: "Zoom (Archives on Youtube)"
+        },
+        {
+          title: "Loteria (Mexican Bingo) Activity",
+          time: "5:00 PM CST",
+          location: "Discord"
+        },
+        {
+          title: "TechData Cyber Range Challenge",
+          time: "5:00 PM CST",
+          location: "Discord"
+        },
+        {
+          title: " Q&A with the Father of Python Guido van Rossum",
+          time: "6:00 PM CST",
+          location: "Twitch Link: twitch.tv/twilio"
+        },
+        {
+          title: "Learners Workshop #4: The Importance of UI/UX",
+          time: "7:30 PM CST",
+          location: "Zoom (Archives on Youtube)"
+        },
+        {
+          title: "Loteria (Mexican Bingo) Activity",
+          time: "8:30 PM CST",
+          location: "Discord"
+        },
+        {
+          title: "MLH Side Event: Slideshow Karaoke",
+          time: "9:00 PM CST",
+          location: "Discord"
+        }
+      ]
+    },
+    {
+      date: "March 29th",
+      dayOfWeek: "Sunday",
+      events: [
+        {
+          title: "MS Painting with Bob Ross",
+          time: "12:30 AM CST",
+          location: "Discord"
+        },
+        {
+          title: "Loteria (Mexican Bingo) Activity",
+          time: "8:00 AM CST",
+          location: "Discord"
+        },
+        {
+          title: "Submissions Due",
+          time: "12:00 PM CST",
+          location: "Devpost"
+        },
+        {
+          title: "Hacking Ends and Judging Begins",
+          time: "1:00 PM CST",
+          location: "Devpost"
+        },
+        {
+          title: "Closing Ceremony",
+          time: "3:00 PM CST",
+          location: "Youtube"
+        },
+        {
+          title: "Event Ends",
+          time: "4:00 PM CST",
+          location: ""
+        }
       ]
     }
   ]
