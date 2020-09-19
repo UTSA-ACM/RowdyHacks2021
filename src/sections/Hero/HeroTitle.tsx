@@ -39,13 +39,13 @@ function HeroTitle() {
         {"INFORMATION COMING SOON"}
       </DateWrapper>
       <ButtonWrapper>
-        {/*<TitleButton*/}
-        {/*  onClick={() => {*/}
-        {/*    window.location.href = "/day-of-event";*/}
-        {/*  }}*/}
-        {/*>*/}
-        {/*  Day Of Event Information*/}
-        {/*</TitleButton>*/}
+        <TitleButton
+          onClick={() => {
+            window.location.href = "http://eepurl.com/gGfz3n";
+          }}
+        >
+          Subscribe to our Mailing List
+        </TitleButton>
         {/*<TitleButton*/}
         {/*  onClick={() => {*/}
         {/*    window.location.href = "https://rowdyhacks.typeform.com/to/ImTIU6";*/}
