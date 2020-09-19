@@ -47,7 +47,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <Holder>
-        <Alerts />
+        {/*<Alerts />*/}
         <NavBar titles={titleNames} />
       </Holder>
       <Hero />

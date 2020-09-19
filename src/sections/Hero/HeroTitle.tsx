@@ -36,16 +36,16 @@ function HeroTitle() {
         {"ROWDYHACKS 2021"}
       </TitleWrapper>
       <DateWrapper {...{ theme: { fontSize: fontSize(30) } }}>
-        {"INFORMATION COMING SOON!"}
+        {"INFORMATION COMING SOON"}
       </DateWrapper>
       <ButtonWrapper>
-        <TitleButton
-          onClick={() => {
-            window.location.href = "/day-of-event";
-          }}
-        >
-          Sign Up for Our Mailing List
-        </TitleButton>
+        {/*<TitleButton*/}
+        {/*  onClick={() => {*/}
+        {/*    window.location.href = "/day-of-event";*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  Day Of Event Information*/}
+        {/*</TitleButton>*/}
         {/*<TitleButton*/}
         {/*  onClick={() => {*/}
         {/*    window.location.href = "https://rowdyhacks.typeform.com/to/ImTIU6";*/}
