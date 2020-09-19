@@ -36,7 +36,7 @@ function HeroTitle() {
         {"ROWDYHACKS 2021"}
       </TitleWrapper>
       <DateWrapper {...{ theme: { fontSize: fontSize(30) } }}>
-        {"INORMATION COMING SOON"}
+        {"INFORMATION COMING SOON"}
       </DateWrapper>
       <ButtonWrapper>
         {/*<TitleButton*/}
