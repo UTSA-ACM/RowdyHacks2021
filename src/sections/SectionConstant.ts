@@ -95,7 +95,7 @@ const UpdatesConstants = {
       title: "2021 Update",
       date: "Sept. 19, 2020",
       message: [
-        "As the new officers of Rowdyhacks 2021 continue to monitor and update we will post updates and emails accordingly so keep an eye out."
+        "As the new officers of Rowdyhacks 2021 continue to monitor the Coronavirus impact, we will update on our Socials and here."
       ]
     }
   ]
