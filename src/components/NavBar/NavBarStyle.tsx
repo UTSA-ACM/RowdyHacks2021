@@ -11,8 +11,8 @@ const NavBarTheme = styled.nav<NavBarProps>`
   transition: all 200ms ease;
   z-index: 100;
   background-color: ${({ scrolledDown }) =>
-    scrolledDown ? "#034872" : "#cbebe8"};
-`;
+    scrolledDown ? "#524797" : "#524797"};
+`; //cbebe8
 
 interface NavBarMarginProps {
   size: number;
@@ -21,7 +21,7 @@ interface NavBarMarginProps {
 const NavBarMargin = styled.div<NavBarMarginProps>`
   display: flex;
   height: ${({ size }) => size}px;
-  background: #cbebe8;
+  background: #080821;
   z-index: -1;
 `;
 
@@ -76,6 +76,7 @@ const UnstyledButton = styled.button`
   font-family: Helvetica;
   font-weight: 650;
   display: flex;
+  bottom: 25px;
 `;
 
 export {

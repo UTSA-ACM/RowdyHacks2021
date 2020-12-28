@@ -10,8 +10,12 @@ import {
   GoldPartnerContainer,
   SilverPartnerContainer,
   BronzePartnerContainer,
-  OtherPartnerContainer
+  OtherPartnerContainer,
+  FooterContainer,
+  EmailLink
 } from "./PartnerStyle";
+import { FooterText } from "../SectionConstant"
+import { ButtonWrapper, TitleButton } from "../../sections/Hero/HeroStyle"
 
 function PartnerSection() {
   return (
@@ -176,11 +180,26 @@ const otherPartners = [
 const PartnerContent: React.FC = () => {
   return (
     <PartnerContentWrapper>
-      <PartnerTitleWrapper>OUR 2020 PARTNERS</PartnerTitleWrapper>
-      <GoldPartnerSection />
-      <SilverPartnerSection />
-      <BronzePartnerSection />
-      <OtherPartnerSection />
+      <PartnerTitleWrapper>OUR 2021 PARTNERS</PartnerTitleWrapper>
+      {/*<GoldPartnerSection />*/}
+      {/*<SilverPartnerSection />*/}
+      {/*<BronzePartnerSection />*/}
+      {/*<OtherPartnerSection />*/}
+      <FooterContainer>
+        {FooterText}
+        <EmailLink href="mailto:sponsorship@rowdyhacks.org" target="_blank">
+          sponsorship@rowdyhacks.org
+        </EmailLink>
+      </FooterContainer>
+      <ButtonWrapper>
+      <TitleButton
+                    onClick={() => {
+                        window.location.href = "https://drive.google.com/file/d/1uiZf6cpBszSaD4IGlqAy9uvq3iWqZ5gG/view?usp=sharing";
+                    }}
+                >
+                Our Sponsorship packet
+        </TitleButton>
+      </ButtonWrapper>
     </PartnerContentWrapper>
   );
 };

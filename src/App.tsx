@@ -15,9 +15,9 @@ import LocationSection from "./sections/Location/LocationSection";
 const titleNames = [
     {title: "About", link: "/#about"},
     {title: "FAQ", link: "/#faq"},
-    {title: "Location", link: "/#location"},
-    {title: "2020 Partners", link: "/#partners"},
+    //{title: "Location", link: "/#location"},
     {title: "Updates", link: "./updates"},
+    {title: "Partner with Us!", link: "/#partners"},
     {title: "Community Partners", link: "https://defhacks.co/hackathons/global_2.0.html"} //link: "https://defhacks.co/hackathons/global_2.0.html"
     // { title: "RowdyHacks 2020", link: "will lead to github.pages" } //to work on in future with Brent
 ];

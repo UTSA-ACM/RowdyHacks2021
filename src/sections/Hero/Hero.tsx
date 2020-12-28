@@ -67,7 +67,7 @@ function Hero() {
   return (
     <>
       <HeroTitle />
-      <HeroContainer>
+      {/*<HeroContainer>
         {animationObjects.map((object, index) => {
           return (
             <Animation
@@ -99,7 +99,7 @@ function Hero() {
             );
         })}
         <HeroBg src={heroImage} alt="HeroImage" />
-      </HeroContainer>
+      </HeroContainer>*/}
     </>
   );
 }

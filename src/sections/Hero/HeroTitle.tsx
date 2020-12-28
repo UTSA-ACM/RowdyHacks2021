@@ -24,13 +24,13 @@ function HeroTitle() {
         <HeroTitleWrapper {...{theme: {margin: middleScreenWidth()}}}>
             <TitleWrapper
                 {...{
-                    theme: {letterSpacing: letterSpacing(), fontSize: fontSize(100)}
+                    theme: {fontSize: fontSize(72)}
                 }}
             >
-                {"ROWDYHACKS 2021"}
+                {"RowdyHacks vi"}
             </TitleWrapper>
-            <DateWrapper {...{theme: {fontSize: fontSize(30)}}}>
-                {"INFORMATION COMING SOON"}
+            <DateWrapper {...{theme: {fontSize: fontSize(48)}}}>
+                {"March 26-28 2021"}
             </DateWrapper>
             <ButtonWrapper>
                 <TitleButton
@@ -39,13 +39,6 @@ function HeroTitle() {
                     }}
                 >
                     Subscribe to our Mailing List
-                </TitleButton>
-                <TitleButton
-                    onClick={() => {
-                        window.location.href = "https://drive.google.com/file/d/1uiZf6cpBszSaD4IGlqAy9uvq3iWqZ5gG/view?usp=sharing";
-                    }}
-                >
-                    Our Sponsorship packet
                 </TitleButton>
                 {/*<TitleButton*/}
                 {/*  onClick={() => {*/}

@@ -6,8 +6,6 @@ import {
   SocialTextWrapper,
   LogoContainer,
   Link,
-  FooterContainer,
-  EmailLink,
   CodeofConduct
 } from "./SocialMediaStyle";
 import { SocialMediaText, FooterText, socialLogos } from "../SectionConstant";
@@ -51,12 +49,6 @@ const SocialMediaContent: React.FC = () => {
           );
         })}
       </LogoContainer>
-      <FooterContainer>
-        {FooterText}
-        <EmailLink href="mailto:sponsorship@rowdyhacks.org" target="_blank">
-          sponsorship@rowdyhacks.org
-        </EmailLink>
-      </FooterContainer>
       {/*<CodeofConduct>*/}
       {/*  <a*/}
       {/*    href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"*/}

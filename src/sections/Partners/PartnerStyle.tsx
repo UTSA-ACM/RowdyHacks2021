@@ -90,8 +90,8 @@ const PartnerContentWrapper = styled.div`
 
 const PartnerTitleWrapper = styled.div`
   font-size: 55px;
-  font-weight: 400;
-  font-family: Arial-Black;
+  font-weight: 700;
+  font-family: Open Sans;
   margin-bottom: 30px;
   @media (max-width: 800px) {
     font-size: 42px;
@@ -124,6 +124,19 @@ const OtherPartnerImage = styled.img`
   }
 `;
 
+const FooterContainer = styled.p`
+  width: 40vw;
+  font-size: 18px;
+  font-family: Open Sans;
+  @media (max-width: 800px) {
+    width: 90vw;
+    font-size: 14px;
+  }
+`;
+
+const EmailLink = styled.a`
+`;
+
 export {
   GoldPartnerImage,
   SilverPartnerImage,
@@ -134,5 +147,7 @@ export {
   GoldPartnerContainer,
   SilverPartnerContainer,
   BronzePartnerContainer,
-  OtherPartnerContainer
+  OtherPartnerContainer,
+  FooterContainer,
+  EmailLink
 };

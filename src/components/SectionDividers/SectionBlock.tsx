@@ -23,7 +23,7 @@ function SectionBlock(props: sectionProps) {
   const sectionColors = [
     {
       theme: {
-        main: "#5faa86",
+        main: "#080821",
         src: "banner-green",
         altName: "greenBanner",
         margin: 0,
@@ -41,7 +41,7 @@ function SectionBlock(props: sectionProps) {
     },
     {
       theme: {
-        main: "#cc64b1",
+        main: "#080821",
         src: "banner-pink",
         altName: "pinkBanner",
         margin: ((170 * screenWidth) / 1988) * -1,
@@ -50,7 +50,7 @@ function SectionBlock(props: sectionProps) {
     },
     {
       theme: {
-        main: "#fff6c2",
+        main: "#080821",
         src: "banner-yellow",
         altName: "yellowBanner",
         margin: ((170 * screenWidth) / 1988) * -1,
@@ -66,7 +66,7 @@ function SectionBlock(props: sectionProps) {
         zindex: 4
       }
     },
-    { theme: { main: "#5faa86" } },
+    { theme: { main: "#080821" } },
     { theme: { main: "#ffffff" } },
     { theme: { main: "#fff6c2", margin: ((170 * screenWidth) / 1988) * -1 } },
 
@@ -89,6 +89,7 @@ function SectionBlock(props: sectionProps) {
       <DividerContent {...sectionTheme}>
         {content({ children: null })}
       </DividerContent>
+      {/* Section divider:
       {sectionTheme.theme.src === undefined ? (
         <DividerMargin />
       ) : (
@@ -96,7 +97,7 @@ function SectionBlock(props: sectionProps) {
           src={require("../../static/" + sectionTheme.theme.src + ".png")}
           alt={sectionTheme.theme.altName}
         />
-      )}
+      )}*/}
     </Divider>
   );
 }
