@@ -27,7 +27,7 @@ const FAQContentWrapper = styled.div`
 `;
 
 const FAQQuestionWrapper = styled.div`
-  color: #524797;
+  color: #ffffff;
   font-weight: 700;
   font-family: Open Sans;
   display: flex;
@@ -46,7 +46,7 @@ interface AnswerProps {
 const FAQAnswerWrapper = styled.div<AnswerProps>`
   max-height: ${props => (props.opened ? "200" : "0")}px;
   display: ${props => (props.opened ? "flex" : "none")};
-  color: black;
+  color: #ffffff;
   text-align: left;
   font-size: 16px;
   font-family: Open Sans;
@@ -79,7 +79,7 @@ const FAQColumn = styled.div`
 const FAQCard = styled.div`
   margin: 10px 20px 10px 20px;
   border-radius: 25px;
-  background: #ffffff;
+  background: #524797;
   padding: 15px 15px;
 `;
 

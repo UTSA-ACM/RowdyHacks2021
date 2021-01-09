@@ -19,16 +19,16 @@ function NavBar(props: { titles: Array<MenuLink> }) {
   const [open, setOpen] = useState(false);
   const toggleOpen = () => {
     setOpen(!open);
-    if (open) {
+    /*if (open) {
       document.getElementById("mlh-trust-badge").style.visibility = "visible";
     } else {
       document.getElementById("mlh-trust-badge").style.visibility = "hidden";
-    }
+    }*/
   };
 
   const bgColor = () => {
     if (scrolledDown) return "#ffffff";
-    return "#034872";
+    return "#ffffff"; // #034872
   };
 
   return (
@@ -115,6 +115,7 @@ const HamburgerWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
+  padding-top: 18px;
 `;
 
 const Line = styled.div`

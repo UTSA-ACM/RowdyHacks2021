@@ -17,8 +17,9 @@ function LazyLoadedSections() {
       <FAQSection />
       <LocationSection sectionNumber={3} />
       {/*<ScheduleSection sectionNumber={8} />*/}
-      <SocialMediaSection />
+      
       <PartnerSection />
+      <SocialMediaSection />
     </BackgroundTheme>
   );
 }

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { getParseTreeNode } from "typescript";
 
 const GoldPartnerImage = styled.img`
   max-height: 230px;
@@ -85,6 +86,8 @@ const PartnerContentWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
+  padding-bottom: 20px;
   width: 100%;
 `;
 
@@ -92,9 +95,21 @@ const PartnerTitleWrapper = styled.div`
   font-size: 55px;
   font-weight: 700;
   font-family: Open Sans;
+  color: #ffffff;
   margin-bottom: 30px;
   @media (max-width: 800px) {
     font-size: 42px;
+  }
+`;
+
+const PartnerTitleDivider = styled.div`
+  width: 450px;
+  height: 5px;
+  background: black;
+  margin: 30px 0px;
+  align-self: center;
+  @media (max-width: 800px) {
+    margin: 10px;
   }
 `;
 
@@ -134,7 +149,8 @@ const FooterContainer = styled.p`
   }
 `;
 
-const EmailLink = styled.a`
+const Link = styled.a`
+  color: #f9d564;
 `;
 
 export {
@@ -144,10 +160,11 @@ export {
   OtherPartnerImage,
   PartnerContentWrapper,
   PartnerTitleWrapper,
+  PartnerTitleDivider,
   GoldPartnerContainer,
   SilverPartnerContainer,
   BronzePartnerContainer,
   OtherPartnerContainer,
   FooterContainer,
-  EmailLink
+  Link
 };

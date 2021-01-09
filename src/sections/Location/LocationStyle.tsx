@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const LocationContainer = styled.div`
   display: flex;
-  margin: 40px 0px;
+  margin-bottom: 40px;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
@@ -34,10 +34,20 @@ const LocationTitleWrapper = styled.div`
   font-size: 55px;
   font-family: Open Sans;
   text-align: center;
+  margin-bottom: 30px;
   @media (max-width: 800px) {
     font-size: 42px;
     text-align: center;
   }
+`;
+
+const LocationTextWrapper = styled.div`
+  font-size: 20px;
+  font-family: Open Sans;
+  @media (max-width: 800px) {
+    font-size: 14px;
+  }
+  text-align: center;
 `;
 
 const LocationTitleDivider = styled.div`
@@ -51,19 +61,10 @@ const LocationTitleDivider = styled.div`
   }
 `;
 
-const LocationTextWrapper = styled.div`
-  font-size: 20px;
-  font-family: Open Sans;
-  @media (max-width: 800px) {
-    font-size: 14px;
-  }
-  text-align: center;
-`;
-
 export {
   LocationTitleWrapper,
-  LocationTitleDivider,
   LocationTextWrapper,
   LocationContainer,
-  LocationWrapper
+  LocationWrapper,
+  LocationTitleDivider
 };

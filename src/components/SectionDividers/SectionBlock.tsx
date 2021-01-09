@@ -24,17 +24,26 @@ function SectionBlock(props: sectionProps) {
     {
       theme: {
         main: "#080821",
-        src: "banner-green",
-        altName: "greenBanner",
+        src: "bar-dark-purple",
+        altName: "darkpurpleBanner",
         margin: 0,
-        zindex: 4
+        zindex: 5
       }
     },
     {
       theme: {
         main: "#027380",
-        src: "banner-blue",
-        altName: "blueBanner",
+        src: "bar-dark-purple",
+        altName: "darkpurpleBanner",
+        margin: ((170 * screenWidth) / 1988) * -1,
+        zindex: 4
+      }
+    },
+    {
+      theme: {
+        main: "#080821",
+        src: "bar-dark-purple",
+        altName: "darkpurpleBanner",
         margin: ((170 * screenWidth) / 1988) * -1,
         zindex: 3
       }
@@ -42,39 +51,38 @@ function SectionBlock(props: sectionProps) {
     {
       theme: {
         main: "#080821",
-        src: "banner-pink",
-        altName: "pinkBanner",
+        src: "bar-dark-purple",
+        altName: "darkpurpleBanner",
         margin: ((170 * screenWidth) / 1988) * -1,
         zindex: 2
       }
     },
     {
       theme: {
-        main: "#080821",
-        src: "banner-yellow",
-        altName: "yellowBanner",
-        margin: ((170 * screenWidth) / 1988) * -1,
-        zindex: 1
-      }
-    },
-    {
-      theme: {
         mainImage: "linear-gradient(to bottom, #cbebe8, #5faa86)",
-        src: "banner-green",
-        altName: "greenBanner",
+        src: "bar-dark-purple",
+        altName: "darkpurpleBanner",
         margin: 0,
         zindex: 4
       }
     },
-    { theme: { main: "#080821" } },
-    { theme: { main: "#ffffff" } },
-    { theme: { main: "#fff6c2", margin: ((170 * screenWidth) / 1988) * -1 } },
+    { theme: { main: "#080821", zindex: 1 } },
+    {
+      theme: { 
+        main: "#080821",
+        src: "bar-dark-purple",
+        altName: "darkpurpleBanner",
+        margin: ((170 * screenWidth) / 1988) * -1,
+        zindex: 0
+      }
+    },
+    { theme: { main: "#080821", margin: ((170 * screenWidth) / 1988) * -1 } },
 
     {
       theme: {
         main: "#5faa86",
-        src: "banner-green",
-        altName: "greenBanner",
+        src: "bar-dark-purple",
+        altName: "darkpurpleBanner",
         margin: ((170 * screenWidth) / 1988) * -1,
         zindex: 0
       }
@@ -89,7 +97,6 @@ function SectionBlock(props: sectionProps) {
       <DividerContent {...sectionTheme}>
         {content({ children: null })}
       </DividerContent>
-      {/* Section divider:
       {sectionTheme.theme.src === undefined ? (
         <DividerMargin />
       ) : (
@@ -97,7 +104,7 @@ function SectionBlock(props: sectionProps) {
           src={require("../../static/" + sectionTheme.theme.src + ".png")}
           alt={sectionTheme.theme.altName}
         />
-      )}*/}
+      )}
     </Divider>
   );
 }

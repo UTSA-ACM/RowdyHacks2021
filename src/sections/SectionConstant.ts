@@ -55,6 +55,9 @@ const SocialMediaText: string =
 const FooterText: string =
   "RowdyHacks is hosted by Roadrunners from UTSA. If you're interested in becoming a partner, please e-mail ";
 
+const FooterText2: string = 
+  "And take a look at ";
+
 const socialLogos: Array<SocialLogo> = [
   {
     link: "https://twitter.com/rowdyhacks",
@@ -254,6 +257,7 @@ export {
   LocationText,
   SocialMediaText,
   FooterText,
+  FooterText2,
   socialLogos,
   UpdatesConstants,
   ScheduleConstants

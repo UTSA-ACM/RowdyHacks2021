@@ -4,6 +4,7 @@ import {
   SocialMediaWrapper,
   SocialMediaTitleWrapper,
   SocialTextWrapper,
+  SocialTitleDivider,
   LogoContainer,
   Link,
   CodeofConduct
@@ -32,6 +33,7 @@ const SocialMediaContent: React.FC = () => {
     <SocialMediaWrapper>
       {/*<FooterBannerImage src={FooterBanner} />*/}
       <SocialMediaTitleWrapper>SOCIAL MEDIA</SocialMediaTitleWrapper>
+      {/*<SocialTitleDivider />*/}
       <SocialTextWrapper>{SocialMediaText}</SocialTextWrapper>
       <LogoContainer>
         {socialLogos.map(logo => {

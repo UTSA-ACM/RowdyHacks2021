@@ -7,14 +7,15 @@ import {
   OtherPartnerImage,
   PartnerContentWrapper,
   PartnerTitleWrapper,
+  PartnerTitleDivider,
   GoldPartnerContainer,
   SilverPartnerContainer,
   BronzePartnerContainer,
   OtherPartnerContainer,
   FooterContainer,
-  EmailLink
+  Link
 } from "./PartnerStyle";
-import { FooterText } from "../SectionConstant"
+import { FooterText, FooterText2 } from "../SectionConstant"
 import { ButtonWrapper, TitleButton } from "../../sections/Hero/HeroStyle"
 
 function PartnerSection() {
@@ -181,25 +182,23 @@ const PartnerContent: React.FC = () => {
   return (
     <PartnerContentWrapper>
       <PartnerTitleWrapper>OUR 2021 PARTNERS</PartnerTitleWrapper>
+      {/*<PartnerTitleDivider />*/}
       {/*<GoldPartnerSection />*/}
       {/*<SilverPartnerSection />*/}
       {/*<BronzePartnerSection />*/}
       {/*<OtherPartnerSection />*/}
       <FooterContainer>
         {FooterText}
-        <EmailLink href="mailto:sponsorship@rowdyhacks.org" target="_blank">
+        <Link href="mailto:sponsorship@rowdyhacks.org" target="_blank">
           sponsorship@rowdyhacks.org
-        </EmailLink>
+        </Link>
       </FooterContainer>
-      <ButtonWrapper>
-      <TitleButton
-                    onClick={() => {
-                        window.location.href = "https://drive.google.com/file/d/1uiZf6cpBszSaD4IGlqAy9uvq3iWqZ5gG/view?usp=sharing";
-                    }}
-                >
-                Our Sponsorship packet
-        </TitleButton>
-      </ButtonWrapper>
+      <FooterContainer>
+        {FooterText2}
+        <Link href={"https://drive.google.com/file/d/1uiZf6cpBszSaD4IGlqAy9uvq3iWqZ5gG/view?usp=sharing"}>
+          our sponsorship packet
+        </Link>
+      </FooterContainer>
     </PartnerContentWrapper>
   );
 };

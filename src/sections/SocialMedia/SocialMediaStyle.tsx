@@ -10,8 +10,8 @@ const SocialMediaTitleWrapper = styled.div`
   font-weight: 700;
   font-size: 55px;
   font-family: Open Sans;
-  margin-bottom: 20px;
   color: #ffffff;
+  margin-bottom: 20px;
   @media (max-width: 800px) {
     font-size: 42px;
     margin-bottom: 0px;
@@ -46,10 +46,22 @@ const SocialTextWrapper = styled.p`
   }
 `;
 
+const SocialTitleDivider = styled.div`
+  width: 300px;
+  height: 5px;
+  background: #ffffff;
+  margin: 30px 0px;
+  align-self: center;
+  @media (max-width: 800px) {
+    margin: 10px;
+  }
+`;
+
 export {
   SocialMediaWrapper,
   SocialMediaTitleWrapper,
   SocialTextWrapper,
+  SocialTitleDivider,
   LogoContainer,
   CodeofConduct,
   Link

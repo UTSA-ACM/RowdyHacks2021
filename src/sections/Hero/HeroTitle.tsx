@@ -27,7 +27,7 @@ function HeroTitle() {
                     theme: {fontSize: fontSize(72)}
                 }}
             >
-                {"RowdyHacks vi"}
+                {"RowdyHacks VI"}
             </TitleWrapper>
             <DateWrapper {...{theme: {fontSize: fontSize(48)}}}>
                 {"March 26-28 2021"}
