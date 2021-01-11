@@ -195,7 +195,7 @@ const PartnerContent: React.FC = () => {
       </FooterContainer>
       <FooterContainer>
         {FooterText2}
-        <Link href={"https://drive.google.com/file/d/1uiZf6cpBszSaD4IGlqAy9uvq3iWqZ5gG/view?usp=sharing"}>
+        <Link href={"https://drive.google.com/file/d/13Qoj3DCyShSyV9VMJQ_MeSlzIWRs-WV2/view?usp=sharing"}>
           our sponsorship packet
         </Link>
       </FooterContainer>

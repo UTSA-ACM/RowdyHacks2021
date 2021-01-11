@@ -91,7 +91,7 @@ const QuestionArrow = styled.div<AnswerProps>`
   margin: 0px 5px;
 
   ${props => (props.opened ? "border-bottom" : "border-top")}: 12px solid
-    #524797;
+    #ffffff;
 `;
 
 export {
