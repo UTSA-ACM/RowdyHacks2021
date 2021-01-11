@@ -150,7 +150,6 @@ const FooterContainer = styled.p`
 `;
 
 const Link = styled.a`
-  color: #f9d564;
 `;
 
 export {
