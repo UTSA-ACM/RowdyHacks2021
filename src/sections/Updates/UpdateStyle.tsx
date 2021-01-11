@@ -78,7 +78,7 @@ const UpdateListItem = styled.a`
 
 const UpdateTableTitle = styled.h3`
   text-align: left;
-  font-family: Arial-Black;
+  font-family: Open Sans;
 `;
 
 const UpdateTable = styled.div`
