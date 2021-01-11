@@ -7,10 +7,11 @@ const SocialMediaWrapper = styled.div`
 `;
 
 const SocialMediaTitleWrapper = styled.div`
+  font-weight: 700;
   font-size: 55px;
-  font-family: Arial-Black;
-  margin-bottom: 20px;
+  font-family: Open Sans;
   color: #ffffff;
+  margin-bottom: 20px;
   @media (max-width: 800px) {
     font-size: 42px;
     margin-bottom: 0px;
@@ -23,7 +24,7 @@ const LogoContainer = styled.div`
 
 const CodeofConduct = styled.div`
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: Open Sans;
   margin: 10px 0px;
   @media (max-width: 800px) {
     font-size: 14px;
@@ -38,35 +39,30 @@ const SocialTextWrapper = styled.p`
   color: #ffffff;
   margin-bottom: 20px;
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: Open Sans;
   @media (max-width: 800px) {
     font-size: 14px;
     width: 90vw;
   }
 `;
 
-const FooterContainer = styled.p`
-  color: #ffffff;
-  width: 40vw;
-  font-size: 18px;
-  font-family: Helvetica;
+const SocialTitleDivider = styled.div`
+  width: 300px;
+  height: 5px;
+  background: #ffffff;
+  margin: 30px 0px;
+  align-self: center;
   @media (max-width: 800px) {
-    width: 90vw;
-    font-size: 14px;
+    margin: 10px;
   }
-`;
-
-const EmailLink = styled.a`
-  color: #ffffff;
 `;
 
 export {
   SocialMediaWrapper,
   SocialMediaTitleWrapper,
   SocialTextWrapper,
+  SocialTitleDivider,
   LogoContainer,
   CodeofConduct,
-  FooterContainer,
-  Link,
-  EmailLink
+  Link
 };

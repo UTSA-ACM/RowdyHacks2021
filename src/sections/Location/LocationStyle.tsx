@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const LocationContainer = styled.div`
   display: flex;
-  margin: 40px 0px;
+  margin-bottom: 40px;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@ const LocationContainer = styled.div`
 `;
 
 const LocationWrapper = styled.div`
-  color: #4d4d4d;
+  color: white;
   text-align: center;
   padding: 2.5vh 2.5vw 2.5vh 2vw;
   display: flex;
@@ -32,18 +32,28 @@ const LocationWrapper = styled.div`
 const LocationTitleWrapper = styled.div`
   font-weight: 700;
   font-size: 55px;
-  font-family: Arial-Black;
+  font-family: Open Sans;
   text-align: center;
+  margin-bottom: 30px;
   @media (max-width: 800px) {
     font-size: 42px;
     text-align: center;
   }
 `;
 
+const LocationTextWrapper = styled.div`
+  font-size: 20px;
+  font-family: Open Sans;
+  @media (max-width: 800px) {
+    font-size: 14px;
+  }
+  text-align: center;
+`;
+
 const LocationTitleDivider = styled.div`
   width: 200px;
   height: 5px;
-  background: #4d4d4d;
+  background: #ffffff;
   margin: 30px 0px;
   align-self: center;
   @media (max-width: 800px) {
@@ -51,19 +61,10 @@ const LocationTitleDivider = styled.div`
   }
 `;
 
-const LocationTextWrapper = styled.div`
-  font-size: 20px;
-  font-family: Helvetica;
-  @media (max-width: 800px) {
-    font-size: 14px;
-  }
-  text-align: center;
-`;
-
 export {
   LocationTitleWrapper,
-  LocationTitleDivider,
   LocationTextWrapper,
   LocationContainer,
-  LocationWrapper
+  LocationWrapper,
+  LocationTitleDivider
 };

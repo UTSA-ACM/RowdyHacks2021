@@ -9,6 +9,7 @@ const DividerHeader = styled.div`
 
 const DividerFooter = styled.img`
   width: 100%;
+  max-height: 50px;
   z-index: 10;
 `;
 

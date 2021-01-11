@@ -54,19 +54,20 @@ const HeroContainer = styled.div`
 
 const TitleWrapper = styled.div`
   font-size: ${props => props.theme.fontSize}px;
-  letter-spacing: ${props => props.theme.letterSpacing}px;
-  font-family: Helvetica;
+  font-family: Poppins;
   font-weight: 700;
   padding-top: 20px;
+  text-shadow: 3px 3px white, 0 0 20px;
 `;
 
 const HeroTitleWrapper = styled.div`
   left: 0px;
-  color: #cc64b1;
+  color: #F9D564;
   position: relative;
   z-index: 10;
   width: 100%;
-  background-color: #cbebe8;
+  background-color: #080821;
+  padding-bottom: 50%;
   @media (max-width: 1200px) {
     margin-bottom: 0px;
     padding-top: 50px;
@@ -96,14 +97,14 @@ const ButtonWrapper = styled.div`
 
 const TitleButton = styled.button`
   margin: 10px 15px;
-  background: #cc64b1;
+  background: #524797;
   border-width: 0;
   border-radius: 30px;
   height: 48px;
   padding: 10px 10px;
   font-size: 14px;
   font-weight: 700;
-  font-family: Helvetica;
+  font-family: Open Sans;
   color: #fff6c2;
   max-width: 300px;
   cursor: pointer;
@@ -111,8 +112,9 @@ const TitleButton = styled.button`
 
 const DateWrapper = styled.div`
   font-size: ${props => props.theme.fontSize}px;
-  font-family: Arial-Black;
-  font-weight: 400;
+  font-family: Poppins;
+  font-weight: 500;
+  text-shadow: 0 0 20px
 `;
 
 export {

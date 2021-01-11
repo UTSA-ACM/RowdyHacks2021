@@ -2,10 +2,10 @@ import React from "react";
 import SectionBlock from "../../components/SectionDividers/SectionBlock";
 import {
   LocationTitleWrapper,
-  LocationTitleDivider,
   LocationTextWrapper,
   LocationContainer,
-  LocationWrapper
+  LocationWrapper,
+  LocationTitleDivider
 } from "./LocationStyle";
 import { LocationText } from "../SectionConstant";
 
@@ -29,7 +29,7 @@ const LocationContent: React.FC = () => {
     <LocationContainer>
       <LocationWrapper>
         <LocationTitleWrapper>LOCATION</LocationTitleWrapper>
-        <LocationTitleDivider />
+        {/*<LocationTitleDivider />*/}
         <LocationTextWrapper>{LocationText}</LocationTextWrapper>
       </LocationWrapper>
     </LocationContainer>

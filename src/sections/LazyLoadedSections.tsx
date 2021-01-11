@@ -11,13 +11,15 @@ import ScheduleSection from "./Schedule/ScheduleSection";
 function LazyLoadedSections() {
   return (
     <BackgroundTheme>
-      <SocialMediaSection />
+      
       <AboutSection />
       {/*<MissionSection />*/}
       <FAQSection />
       <LocationSection sectionNumber={3} />
       {/*<ScheduleSection sectionNumber={8} />*/}
+      
       <PartnerSection />
+      <SocialMediaSection />
     </BackgroundTheme>
   );
 }

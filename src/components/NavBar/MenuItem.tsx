@@ -16,7 +16,7 @@ function MenuItem(props: {
   return (
     <UnstyledButton onClick={onClick}>
       <MenuItemContainer href={link}>
-        <NavTextContainer theme={scrolledDown ? "#ffffff" : "#034872"}>
+        <NavTextContainer theme={scrolledDown ? "#ffffff" : "#ffffff"/*"#034872"*/}>
           {title}
         </NavTextContainer>
       </MenuItemContainer>
