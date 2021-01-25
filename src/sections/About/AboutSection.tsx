@@ -30,7 +30,7 @@ const AboutContent: React.FC = () => {
   const windowWidth = useWindowWidth();
   return (
     <AboutContainer>
-      <AboutTitleWrapper>ABOUT</AboutTitleWrapper>
+      {/*<AboutTitleWrapper>ABOUT</AboutTitleWrapper>*/}
       <AboutContentWrapper>
         <AboutContentTab content={AboutTextBlock1} name={"Handshake"} />
         {windowWidth >= 760 ? <AboutContentDivider /> : null}

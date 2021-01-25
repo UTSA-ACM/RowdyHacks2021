@@ -28,7 +28,7 @@ const LocationContent: React.FC = () => {
   return (
     <LocationContainer>
       <LocationWrapper>
-        <LocationTitleWrapper>LOCATION</LocationTitleWrapper>
+        {/*<LocationTitleWrapper>LOCATION</LocationTitleWrapper>*/}
         {/*<LocationTitleDivider />*/}
         <LocationTextWrapper>{LocationText}</LocationTextWrapper>
       </LocationWrapper>

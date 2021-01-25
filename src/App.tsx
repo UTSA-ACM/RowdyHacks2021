@@ -18,7 +18,8 @@ const titleNames = [
     {title: "Location", link: "/#location"},
     {title: "Partner with Us", link: "/#partners"},
     {title: "Community Partners", link: "https://defhacks.co/hackathons/global_2.0.html"}, //link: "https://defhacks.co/hackathons/global_2.0.html"
-    {title: "Updates", link: "./updates"}
+    {title: "Updates", link: "./updates"},
+    {title: "Schedule", link: "./#schedule"}
     // { title: "RowdyHacks 2020", link: "will lead to github.pages" } //to work on in future with Brent
 ];
 
