@@ -7,7 +7,8 @@ import {
   DividerMargin,
   DividerTitleWrapper,
   DividerTitleImage,
-  DividerTitleText
+  DividerTitleText,
+  DividerNavigation
 } from "./DividerStyle";
 import useWindowWidth from "../../hooks/useWindowWidth";
 
@@ -181,6 +182,7 @@ function SectionBlock(props: sectionProps) {
 
   return (
     <Divider id={id} key={id + "-section-" + sectionNumber}>
+      <DividerNavigation id={`${id}-nav`}></DividerNavigation>
       {/*<DividerMargin {...sectionTheme} />*/}
       <DividerTitleWrapper>
         <DividerTitleImage src={require("../../static/" + sectionTitle.theme.src + ".svg")}/>

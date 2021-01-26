@@ -13,13 +13,14 @@ import {NavBarMargin} from "./components/NavBar/NavBarStyle";
 import LocationSection from "./sections/Location/LocationSection";
 
 const titleNames = [
-    {title: "About", link: "/#about"},
-    {title: "FAQ", link: "/#faq"},
-    {title: "Location", link: "/#location"},
-    {title: "Partner with Us", link: "/#partners"},
-    {title: "Community Partners", link: "https://defhacks.co/hackathons/global_2.0.html"}, //link: "https://defhacks.co/hackathons/global_2.0.html"
+    {title: "About", link: "/#about-nav"},
+    {title: "FAQ", link: "/#faq-nav"},
+    {title: "Location", link: "/#location-nav"},
+    {title: "Sponsors", link: "/#partners-nav"},
+    // {title: "Community Partners", link: "https://defhacks.co/hackathons/global_2.0.html"}, //link: "https://defhacks.co/hackathons/global_2.0.html"
+    // {title: "Schedule", link: "./#schedule"},
     {title: "Updates", link: "./updates"},
-    {title: "Schedule", link: "./#schedule"}
+    {title: "2020", link: "https://rowdyhacks-utsa.github.io/RowdyHacks2020/"}
     // { title: "RowdyHacks 2020", link: "will lead to github.pages" } //to work on in future with Brent
 ];
 

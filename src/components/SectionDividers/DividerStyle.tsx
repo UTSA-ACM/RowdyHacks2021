@@ -79,6 +79,11 @@ const DividerTitleText = styled.div`
   }
 `;
 
+const DividerNavigation = styled.div`
+  position: relative;
+  top: -105px;
+`;
+
 export {
   Divider,
   DividerHeader,
@@ -90,5 +95,6 @@ export {
   WhiteDividerContent,
   DividerTitleWrapper,
   DividerTitleImage,
-  DividerTitleText
+  DividerTitleText,
+  DividerNavigation
 };
