@@ -40,13 +40,13 @@ function HeroTitle() {
                 >
                     Register
                 </TitleButton>
-                <TitleButton
-                    /*onClick={() => {
-                        window.location.href = "http://eepurl.com/gGfz3n";
-                    }}*/
-                >
-                    Get Updates
-                </TitleButton>
+                {/*<TitleButton*/}
+                {/*    onClick={() => {*/}
+                {/*        window.location.href = "http://eepurl.com/gGfz3n";*/}
+                {/*    }}*/}
+                {/*>*/}
+                {/*    Get Updates*/}
+                {/*</TitleButton>*/}
                 {/*<TitleButton*/}
                 {/*  onClick={() => {*/}
                 {/*    window.location.href = "https://rowdyhacks.typeform.com/to/ImTIU6";*/}
