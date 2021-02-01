@@ -2,11 +2,15 @@ import React from "react";
 import SectionBlock from "../../components/SectionDividers/SectionBlock";
 import {
   LocationTitleWrapper,
-  LocationTitleDivider,
   LocationTextWrapper,
   LocationContainer,
-  LocationWrapper
+  LocationWrapper,
+  LocationTitleDivider
 } from "./LocationStyle";
+import {
+  ButtonWrapper,
+  TitleButton
+} from "../Hero/HeroStyle";
 import { LocationText } from "../SectionConstant";
 
 interface LocationSectionProps {
@@ -28,9 +32,18 @@ const LocationContent: React.FC = () => {
   return (
     <LocationContainer>
       <LocationWrapper>
-        <LocationTitleWrapper>LOCATION</LocationTitleWrapper>
-        <LocationTitleDivider />
+        {/*<LocationTitleWrapper>LOCATION</LocationTitleWrapper>*/}
+        {/*<LocationTitleDivider />*/}
         <LocationTextWrapper>{LocationText}</LocationTextWrapper>
+        <ButtonWrapper>
+                <TitleButton
+                    onClick={() => {
+                        window.location.href = "https://whova.com/portal/rowdy_202102/";
+                    }}
+                >
+                    Download Whova
+                </TitleButton>
+          </ButtonWrapper>
       </LocationWrapper>
     </LocationContainer>
   );

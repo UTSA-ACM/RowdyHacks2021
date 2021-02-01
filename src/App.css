@@ -40,3 +40,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+a {
+  color: #f9d564;
+}
+
+a:visited {
+  color: #b8993d;
+}

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const AboutTitleWrapper = styled.div`
-  font-family: Arial-Black;
-  font-weight: 400;
+  font-family: Open Sans;
+  font-weight: 700;
   color: #ffffff;
   font-size: 55px;
   margin-bottom: 20px;
@@ -14,13 +14,13 @@ const AboutTitleWrapper = styled.div`
 
 const AboutContentWrapper = styled.div`
   font-weight: 400;
-  color: #ffffff;
+  color: #d7bfe1;
   font-size: 21px;
   margin: 20px 30px 60px 30px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: Helvetica;
+  font-family: Open Sans;
   @media (max-width: 1050px) {
     font-size: 14px;
   }
@@ -67,7 +67,7 @@ const AboutContentImage = styled.img`
 `;
 
 const AboutContentDivider = styled.div`
-  background: #ffffff;
+  background: #d7bfe1;
   height: 150px;
   width: 3px;
   margin: 150px 40px 0px 40px;

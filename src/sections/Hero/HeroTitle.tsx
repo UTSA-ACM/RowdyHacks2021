@@ -16,7 +16,7 @@ function HeroTitle() {
     };
 
     const fontSize = (fontSize: number) => {
-        if (screenWidth < 1100) return (fontSize * screenWidth) / 1100;
+        if (screenWidth < 720) return (fontSize * screenWidth) / 720;
         else return fontSize;
     };
 
@@ -24,28 +24,28 @@ function HeroTitle() {
         <HeroTitleWrapper {...{theme: {margin: middleScreenWidth()}}}>
             <TitleWrapper
                 {...{
-                    theme: {letterSpacing: letterSpacing(), fontSize: fontSize(100)}
+                    theme: {fontSize: fontSize(72)}
                 }}
             >
-                {"ROWDYHACKS 2021"}
+                {"RowdyHacks VI"}
             </TitleWrapper>
-            <DateWrapper {...{theme: {fontSize: fontSize(30)}}}>
-                {"INFORMATION COMING SOON"}
+            <DateWrapper {...{theme: {fontSize: fontSize(48)}}}>
+                {"March 26-28 2021"}
             </DateWrapper>
             <ButtonWrapper>
                 <TitleButton
                     onClick={() => {
-                        window.location.href = "http://eepurl.com/gGfz3n";
+                        window.location.href = "https://whova.com/portal/registration/rowdy_202102/";
                     }}
                 >
-                    Subscribe to our Mailing List
+                    Register
                 </TitleButton>
                 <TitleButton
-                    onClick={() => {
-                        window.location.href = "https://drive.google.com/file/d/1uiZf6cpBszSaD4IGlqAy9uvq3iWqZ5gG/view?usp=sharing";
-                    }}
+                    /*onClick={() => {
+                        window.location.href = "http://eepurl.com/gGfz3n";
+                    }}*/
                 >
-                    Our Sponsorship packet
+                    Get Updates
                 </TitleButton>
                 {/*<TitleButton*/}
                 {/*  onClick={() => {*/}

@@ -11,7 +11,7 @@ const NavBarTheme = styled.nav<NavBarProps>`
   transition: all 200ms ease;
   z-index: 100;
   background-color: ${({ scrolledDown }) =>
-    scrolledDown ? "#034872" : "#cbebe8"};
+    scrolledDown ? "#524797" : "#0c0c30"};
 `;
 
 interface NavBarMarginProps {
@@ -21,7 +21,7 @@ interface NavBarMarginProps {
 const NavBarMargin = styled.div<NavBarMarginProps>`
   display: flex;
   height: ${({ size }) => size}px;
-  background: #cbebe8;
+  background: #080821;
   z-index: -1;
 `;
 
@@ -35,8 +35,8 @@ const Home = styled.a`
 `;
 
 const LogoImage = styled.img`
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 60px;
+  max-height: 60px;
   @media (max-width: 800px) {
     margin-top: 5px;
   }
@@ -45,7 +45,7 @@ const LogoImage = styled.img`
 const NavBarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px 10px 30px;
+  padding: 8px 50px 10px 30px;
   @media (max-width: 800px) {
     padding: 0px 10px 0px 10px;
   }
@@ -73,9 +73,10 @@ const UnstyledButton = styled.button`
   background-color: transparent;
   border: 0px;
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: Open Sans;
   font-weight: 650;
   display: flex;
+  bottom: 25px;
 `;
 
 export {

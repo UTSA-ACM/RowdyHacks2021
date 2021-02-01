@@ -53,7 +53,7 @@ const FAQContent: React.FC = () => {
 
   return (
     <FAQContainer>
-      <FAQTitleWrapper>FAQ</FAQTitleWrapper>
+      {/*<FAQTitleWrapper>FAQ</FAQTitleWrapper>*/}
       <FAQContentWrapper>
         <FAQColumn>
           {FAQQuestions.map((value, index) => {

@@ -1,5 +1,11 @@
 import SocialLogo from "./SocialLogo";
 
+const QuoteText: string = 
+  "\"Any sufficiently advanced technology is indistinguishable from magic\"";
+
+const QuoteAuthor: string = 
+  "- Arthur C. Clarke";
+
 const AboutTextBlock1: string =
   "It's a great opportunity to network, meet new people, and build your connnections";
 const AboutTextBlock2: string =
@@ -24,32 +30,39 @@ const FAQQuestions: Array<string> = [
   "What should my project be?",
   "Can I work on previous projects?",
   "What if I'm not a UTSA student?",
-  "What should I bring?",
-  "What actions will be taking in regards to coronavirus(COVID-19)?",
+  "What will I need?",
+  "What actions will RowdyHacks be taking regards to COVID-19?",
+  "RowdyHacks and another hackathon are during the same weekend. Can I submit my project to both of them?",
+  "How long does this hackathon last?",
   "What if this FAQ didn't answer my question?"
 ];
 
 const FAQAnswers: Array<any> = [
   "A hackathon is a 24 hour event where teams collaborate on a project to create social impact, satisfy company challenges, and innovate new solutions. At RowdyHacks, mentors will be willing to assist you on your quest to creating your project.",
   "RowdyHacks is absolutely FREE thanks to our awesome partners. You don't have to worry about a thing -- we'll provide t-shirts, swag, and prizes.",
-  "No worries! RowdyHacks is for everyone from all coding and non-coding backgrounds! We will have plenty of mentors and peers to help you learn throughout the event.",
+  "No worries! RowdyHacks is for everyone from all coding and non-coding backgrounds! We will have plenty of mentors and workshops to help you learn throughout the event.",
   "Teams can consist of up to 4 students! We encourage hackers to participate as part of a team. Don't have a team? No worries, we will have an opportunity before the event for you to meet other hackers and form teams!",
   "Anything! You can make a new social media website, a simple weather app, a sentimental analysis tool for tweets...anything in your wildest imagination, you can create. Your team can come prepared with an idea or come up with one on the spot.",
   "No, all projects must be built from scratch. However, you can start brainstorming your ideas prior to the event. Any team found working on previous projects will be automatically disqualified.",
   "No problem! RowdyHacks is open to ANY college/university student over 18 years old. We're so excited to see students from all over collaborating and innovating together at this year's event.",
-  "Any hardware you plan on using for the project -- your laptop, charger, portable mouse, phone, Raspberry Pi, VR headset, robots, etc. You might also want to bring a change of clothes and toiletries.",
-  "We will be deciding on the future of RowdyHacks soon. Keep up to date through our social medias and our mailing list.",
+  "Any hardware you plan on using for the project -- your laptop, charger, portable mouse, phone, Raspberry Pi, VR headset, robots, etc. Don't forget to keep water and snacks on hand!",
+  "RowdyHacks VI will be virtual and hosted through WHOVA! Keep up to date through our social medias and our mailing list.",
+  "Unfortunately, even if you attend two virtual hackathons on the same weekend, you can't submit the same project to both hackathons.",
+  "RowdyHacks VI will last 40 hours. We wanted to extend RowdyHacks this year to give hackers some extra time to hack and squeeze in some quality sleep.",
   "Please e-mail team@rowdyhacks.org. We will get back to you and give you the best support."
 ];
 
 const LocationText: string =
-  "RowdyHacks 2021 is currently keeping an eye on the COVID situation. We will publish an update once we decide to be either Online or In-Person.";
+  "RowdyHacks 2021 will be virtual.";
 
 const SocialMediaText: string =
   "For live updates and announcements, follow us on social media!";
 
 const FooterText: string =
   "RowdyHacks is hosted by Roadrunners from UTSA. If you're interested in becoming a partner, please e-mail ";
+
+const FooterText2: string = 
+  "And take a look at ";
 
 const socialLogos: Array<SocialLogo> = [
   {
@@ -240,6 +253,8 @@ const ScheduleConstants = {
 };
 
 export {
+  QuoteText,
+  QuoteAuthor,
   AboutTextBlock1,
   AboutTextBlock2,
   AboutTextBlock3,
@@ -250,6 +265,7 @@ export {
   LocationText,
   SocialMediaText,
   FooterText,
+  FooterText2,
   socialLogos,
   UpdatesConstants,
   ScheduleConstants
