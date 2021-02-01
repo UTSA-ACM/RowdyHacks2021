@@ -51,7 +51,6 @@ const HeroContainer = styled.div`
   position: relative;
   text-align: center;
   padding-bottom: 5vw;
-  background-color: #080821;
 `;
 
 const TitleWrapper = styled.div`
@@ -68,7 +67,6 @@ const HeroTitleWrapper = styled.div`
   position: relative;
   z-index: 10;
   width: 100%;
-  background-color: #080821;
   padding-bottom: 5%;
   @media (max-width: 1200px) {
     margin-bottom: 0px;

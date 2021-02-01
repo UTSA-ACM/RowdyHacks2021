@@ -53,7 +53,6 @@ const DividerTitleWrapper = styled.div`
   position: relative;
   text-align: center;
   padding-bottom: 2vw;
-  background-color: #080821;
 `;
 
 const DividerTitleImage = styled.img`

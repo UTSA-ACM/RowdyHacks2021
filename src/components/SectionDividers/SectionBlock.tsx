@@ -28,40 +28,36 @@ function SectionBlock(props: sectionProps) {
     {
       // About
       theme: {
-        main: "#080821",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0,
-        zindex: 5
+        zindex: 0//5
       }
     },
     {
       theme: {
-        main: "#027380",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: ((170 * screenWidth) / 1988) * -1,
-        zindex: 4
+        zindex: 0//4
       }
     },
     {
       // FAQ
       theme: {
-        main: "#080821",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0, //((170 * screenWidth) / 1988) * -1,
-        zindex: 3
+        zindex: 0//3
       }
     },
     {
       // Location
       theme: {
-        main: "#080821",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0, //((170 * screenWidth) / 1988) * -1,
-        zindex: 2
+        zindex: 0//2
       }
     },
     {
@@ -70,22 +66,21 @@ function SectionBlock(props: sectionProps) {
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0,
-        zindex: 4
+        zindex: 0//4
       }
     },
     // Social
-    { theme: { main: "#080821", zindex: 1 } },
+    { theme: { zindex: 1 } },
     {
       // Partner
       theme: { 
-        main: "#080821",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0, //((170 * screenWidth) / 1988) * -1,
         zindex: 0
       }
     },
-    { theme: { main: "#080821", margin: ((170 * screenWidth) / 1988) * -1 } },
+    { theme: { margin: ((170 * screenWidth) / 1988) * -1 } },
 
     {
       // Schedule
