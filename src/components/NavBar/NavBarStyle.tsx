@@ -11,8 +11,8 @@ const NavBarTheme = styled.nav<NavBarProps>`
   transition: all 200ms ease;
   z-index: 100;
   background-color: ${({ scrolledDown }) =>
-    scrolledDown ? "#524797" : "#524797"};
-`; //cbebe8
+    scrolledDown ? "#524797" : "#0c0c30"};
+`;
 
 interface NavBarMarginProps {
   size: number;

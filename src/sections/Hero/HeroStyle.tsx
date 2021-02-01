@@ -48,8 +48,10 @@ const HeroBg = styled.img`
 `;
 
 const HeroContainer = styled.div`
-  overflow: hidden;
   position: relative;
+  text-align: center;
+  padding-bottom: 5vw;
+  background-color: #080821;
 `;
 
 const TitleWrapper = styled.div`
@@ -67,7 +69,7 @@ const HeroTitleWrapper = styled.div`
   z-index: 10;
   width: 100%;
   background-color: #080821;
-  padding-bottom: 50%;
+  padding-bottom: 5%;
   @media (max-width: 1200px) {
     margin-bottom: 0px;
     padding-top: 50px;
@@ -96,16 +98,15 @@ const ButtonWrapper = styled.div`
 `;
 
 const TitleButton = styled.button`
-  margin: 10px 15px;
-  background: #524797;
+  margin: 10px 10px;
+  background: #d7bfe1;
   border-width: 0;
   border-radius: 30px;
   height: 48px;
-  padding: 10px 10px;
-  font-size: 14px;
+  padding: 10px 20px;
+  font-size: 18px;
   font-weight: 700;
-  font-family: Open Sans;
-  color: #fff6c2;
+  font-family: Poppins;
   max-width: 300px;
   cursor: pointer;
 `;
@@ -115,6 +116,46 @@ const DateWrapper = styled.div`
   font-family: Poppins;
   font-weight: 500;
   text-shadow: 0 0 20px
+`;
+
+const QuoteImage = styled.img`
+  width: 50%;
+  z-index: 10;
+  @media (max-width: 900px) {
+    width: 75%;
+  }
+`;
+
+const HeroQuoteText = styled.div`
+  position: absolute;
+  font-size: 2.1vw;
+  font-family: Poppins;
+  font-weight: 700;
+  max-width: 24vw;
+  top: 26%;
+  left: 30%;
+  @media (max-width: 900px) {
+    font-size: 3.2vw;
+    max-width: 38vw;
+    top: 28%;
+    left: 20%;
+  }
+`;
+
+const HeroQuoteAuthor = styled.div`
+  position: absolute;
+  font-size: 1.5vw;
+  font-family: Poppins;
+  font-weight: 700;
+  max-width: 10vw;
+  bottom: 25%;
+  right: 27%;
+  @media (max-width: 900px) {
+    font-size: 2.5vw;
+    max-width: 17vw;
+    bottom: 21%;
+    right: 15%;
+  }
 `;
 
 export {
@@ -129,5 +170,8 @@ export {
   HeroTitleContainer,
   HeroTitleWrapper,
   DateWrapper,
-  ButtonWrapper
+  ButtonWrapper,
+  QuoteImage,
+  HeroQuoteText,
+  HeroQuoteAuthor
 };

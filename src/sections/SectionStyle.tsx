@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   display: block;
-  padding-top: 70px;
+  padding-top: 145px;
   margin: 0px 100px;
   text-align: left;
 `;

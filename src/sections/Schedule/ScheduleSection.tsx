@@ -26,7 +26,7 @@ function ScheduleSection(props: ScheduleSectionProps) {
         content: () => {
           return (
             <div style={{ width: "inherit" }}>
-              <ScheduleTitle {...props}>SCHEDULE</ScheduleTitle>
+              {/*<ScheduleTitle {...props}>SCHEDULE</ScheduleTitle>*/}
               <Schedule />
             </div>
           );

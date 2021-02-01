@@ -1,5 +1,11 @@
 import SocialLogo from "./SocialLogo";
 
+const QuoteText: string = 
+  "\"Any sufficiently advanced technology is indistinguishable from magic\"";
+
+const QuoteAuthor: string = 
+  "- Arthur C. Clarke";
+
 const AboutTextBlock1: string =
   "It's a great opportunity to network, meet new people, and build your connnections";
 const AboutTextBlock2: string =
@@ -247,6 +253,8 @@ const ScheduleConstants = {
 };
 
 export {
+  QuoteText,
+  QuoteAuthor,
   AboutTextBlock1,
   AboutTextBlock2,
   AboutTextBlock3,

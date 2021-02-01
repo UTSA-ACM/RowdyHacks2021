@@ -1,5 +1,5 @@
 import React from "react";
-import rowdyHacksLogo from "../../static/RH_21_Logo.svg";
+import rowdyHacksLogo from "../../static/rowdyhacks21_SVG.png";
 import { LogoImage, Home } from "./NavBarStyle";
 
 function HomeButton() {

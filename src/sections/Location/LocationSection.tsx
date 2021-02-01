@@ -7,6 +7,10 @@ import {
   LocationWrapper,
   LocationTitleDivider
 } from "./LocationStyle";
+import {
+  ButtonWrapper,
+  TitleButton
+} from "../Hero/HeroStyle";
 import { LocationText } from "../SectionConstant";
 
 interface LocationSectionProps {
@@ -28,9 +32,18 @@ const LocationContent: React.FC = () => {
   return (
     <LocationContainer>
       <LocationWrapper>
-        <LocationTitleWrapper>LOCATION</LocationTitleWrapper>
+        {/*<LocationTitleWrapper>LOCATION</LocationTitleWrapper>*/}
         {/*<LocationTitleDivider />*/}
         <LocationTextWrapper>{LocationText}</LocationTextWrapper>
+        <ButtonWrapper>
+                <TitleButton
+                    onClick={() => {
+                        window.location.href = "https://whova.com/portal/rowdy_202102/";
+                    }}
+                >
+                    Download Whova
+                </TitleButton>
+          </ButtonWrapper>
       </LocationWrapper>
     </LocationContainer>
   );

@@ -3,16 +3,10 @@ import styled from "styled-components";
 const UpdateTopMargin = styled.div`
   display: flex;
   height: 70px;
-  background-color: rgba(203, 235, 232, 1);
 `;
 
 const UpdateTheme = styled.div`
-  background-image: linear-gradient(
-    to bottom,
-    rgba(203, 235, 232, 1),
-    rgba(203, 235, 232, 0)
-  );
-  color: #034872;
+  color: white;
   display: flex;
   flex-direction: column;
   padding: 10px 100px;
@@ -23,25 +17,25 @@ const UpdateTheme = styled.div`
 `;
 
 const UpdateTitle = styled.h1`
-  font-family: Arial-Black;
+  font-family: Poppins;
 `;
 
 const UpdateParagraph = styled.div`
   text-align: left;
   margin-bottom: 15px;
-  font-family: Helvetica;
+  font-family: Open Sans;
 `;
 
 const UpdateBlockSection = styled.section`
   display: flex;
   flex-direction: column;
   margin-left: 25px;
-  font-family: Helvetica;
+  font-family: Open Sans;
 `;
 
 const UpdateBlockTitle = styled.h3`
   text-align: left;
-  font-family: Arial-Black;
+  font-family: Poppins;
 `;
 
 const UpdateBlockDate = styled.p`
@@ -53,7 +47,7 @@ const UpdateContent = styled.div`
   display: flex;
   flex-direction: row;
   min-height: 300px;
-  font-family: Helvetica;
+  font-family: Open Sans;
   @media (max-width: 800px) {
     flex-direction: column;
   }
@@ -62,7 +56,7 @@ const UpdateContent = styled.div`
 const VerticalDivider = styled.div`
   width: 5px;
   height: inherit;
-  background-color: #034872;
+  background-color: #524797;
   margin: 0px 15px 5px;
   @media (max-width: 800px) {
     width: inherit;
@@ -75,7 +69,6 @@ const UpdateListItem = styled.a`
   min-width: 120px;
   list-style-type: none;
   border: none;
-  color: #034872;
   @media (max-width: 800px) {
     text-align: left;
   }
@@ -83,7 +76,7 @@ const UpdateListItem = styled.a`
 
 const UpdateTableTitle = styled.h3`
   text-align: left;
-  font-family: Arial-Black;
+  font-family: Open Sans;
 `;
 
 const UpdateTable = styled.div`

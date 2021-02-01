@@ -7,8 +7,12 @@ import {
   HeroBg,
   HeroContainer,
   StillAnimation,
-  TurnedStillAnimation
+  TurnedStillAnimation,
+  QuoteImage,
+  HeroQuoteText,
+  HeroQuoteAuthor
 } from "./HeroStyle";
+import { QuoteText, QuoteAuthor } from "../SectionConstant";
 import Animation from "./Animation";
 import AnimationInput from "./Interfaces/AnimationInput";
 import StillAnimationInput from "./Interfaces/StillAnimationInput";
@@ -100,6 +104,11 @@ function Hero() {
         })}
         <HeroBg src={heroImage} alt="HeroImage" />
       </HeroContainer>*/}
+      <HeroContainer>
+        <QuoteImage src={require("../../static/quote_box.svg")}/>
+        <HeroQuoteText>{QuoteText}</HeroQuoteText>
+        <HeroQuoteAuthor>{QuoteAuthor}</HeroQuoteAuthor>
+      </HeroContainer>
     </>
   );
 }

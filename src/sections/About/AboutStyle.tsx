@@ -14,7 +14,7 @@ const AboutTitleWrapper = styled.div`
 
 const AboutContentWrapper = styled.div`
   font-weight: 400;
-  color: #ffffff;
+  color: #d7bfe1;
   font-size: 21px;
   margin: 20px 30px 60px 30px;
   display: flex;
@@ -67,7 +67,7 @@ const AboutContentImage = styled.img`
 `;
 
 const AboutContentDivider = styled.div`
-  background: #ffffff;
+  background: #d7bfe1;
   height: 150px;
   width: 3px;
   margin: 150px 40px 0px 40px;

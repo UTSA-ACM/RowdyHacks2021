@@ -32,7 +32,7 @@ const SocialMediaContent: React.FC = () => {
   return (
     <SocialMediaWrapper>
       {/*<FooterBannerImage src={FooterBanner} />*/}
-      <SocialMediaTitleWrapper>SOCIAL MEDIA</SocialMediaTitleWrapper>
+      {/*<SocialMediaTitleWrapper>SOCIAL MEDIA</SocialMediaTitleWrapper>*/}
       {/*<SocialTitleDivider />*/}
       <SocialTextWrapper>{SocialMediaText}</SocialTextWrapper>
       <LogoContainer>

@@ -49,6 +49,41 @@ const Divider = styled.section`
   flex-direction: column;
 `;
 
+const DividerTitleWrapper = styled.div`
+  position: relative;
+  text-align: center;
+  padding-bottom: 2vw;
+  background-color: #080821;
+`;
+
+const DividerTitleImage = styled.img`
+  width: 25%;
+  z-index: 10;
+  @media (max-width: 900px) {
+    width: 50%;
+  }
+`;
+
+const DividerTitleText = styled.div`
+  position: absolute;
+  font-size: 2.7vw;
+  font-family: Poppins;
+  font-weight: 700;
+  max-width: 25vw;
+  top: ${props => props.theme.topOffset}%;
+  left: ${props => props.theme.leftOffset}%;
+  @media (max-width: 900px) {
+    font-size: 5vw;
+    top: ${props => props.theme.topOffset+4}%;
+    left: ${props => props.theme.title == "FAQ" ? props.theme.leftOffset-1 : props.theme.leftOffset-5}%;
+  }
+`;
+
+const DividerNavigation = styled.div`
+  position: relative;
+  top: -105px;
+`;
+
 export {
   Divider,
   DividerHeader,
@@ -57,5 +92,9 @@ export {
   DividerMargin,
   SectionTitle,
   SectionContent,
-  WhiteDividerContent
+  WhiteDividerContent,
+  DividerTitleWrapper,
+  DividerTitleImage,
+  DividerTitleText,
+  DividerNavigation
 };

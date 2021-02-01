@@ -181,7 +181,7 @@ const otherPartners = [
 const PartnerContent: React.FC = () => {
   return (
     <PartnerContentWrapper>
-      <PartnerTitleWrapper>OUR 2021 PARTNERS</PartnerTitleWrapper>
+      {/*<PartnerTitleWrapper>OUR 2021 PARTNERS</PartnerTitleWrapper>*/}
       {/*<PartnerTitleDivider />*/}
       {/*<GoldPartnerSection />*/}
       {/*<SilverPartnerSection />*/}
