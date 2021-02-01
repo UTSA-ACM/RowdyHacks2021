@@ -34,9 +34,9 @@ function HeroTitle() {
             </DateWrapper>
             <ButtonWrapper>
                 <TitleButton
-                    /*onClick={() => {
-                        window.location.href = "http://eepurl.com/gGfz3n";
-                    }}*/
+                    onClick={() => {
+                        window.location.href = "https://whova.com/portal/registration/rowdy_202102/";
+                    }}
                 >
                     Register
                 </TitleButton>

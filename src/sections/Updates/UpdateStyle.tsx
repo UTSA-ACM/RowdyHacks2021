@@ -3,11 +3,9 @@ import styled from "styled-components";
 const UpdateTopMargin = styled.div`
   display: flex;
   height: 70px;
-  background-color: #080821;
 `;
 
 const UpdateTheme = styled.div`
-  background: #080821;
   color: white;
   display: flex;
   flex-direction: column;
