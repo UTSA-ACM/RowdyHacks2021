@@ -6,7 +6,6 @@ import {
 } from "../SectionConstant";
 import SectionBlock from "../../components/SectionDividers/SectionBlock";
 import {
-  AboutTitleWrapper,
   AboutContentWrapper,
   AboutContentTabWrapper,
   AboutContentImage,
@@ -30,7 +29,6 @@ const AboutContent: React.FC = () => {
   const windowWidth = useWindowWidth();
   return (
     <AboutContainer>
-      {/*<AboutTitleWrapper>ABOUT</AboutTitleWrapper>*/}
       <AboutContentWrapper>
         <AboutContentTab content={AboutTextBlock1} name={"Handshake"} />
         {windowWidth >= 760 ? <AboutContentDivider /> : null}

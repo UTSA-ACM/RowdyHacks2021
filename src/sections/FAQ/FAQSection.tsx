@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import SectionBlock from "../../components/SectionDividers/SectionBlock";
 import {
-  FAQTitleWrapper,
   FAQContentWrapper,
   FAQQuestionWrapper,
   FAQAnswerWrapper,
@@ -53,7 +52,6 @@ const FAQContent: React.FC = () => {
 
   return (
     <FAQContainer>
-      {/*<FAQTitleWrapper>FAQ</FAQTitleWrapper>*/}
       <FAQContentWrapper>
         <FAQColumn>
           {FAQQuestions.map((value, index) => {

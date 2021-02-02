@@ -32,7 +32,7 @@ function HeroTitle() {
             <DateWrapper {...{theme: {fontSize: fontSize(48)}}}>
                 {"March 26-28 2021"}
             </DateWrapper>
-            <ButtonWrapper>
+            {/* <ButtonWrapper>
                 <TitleButton
                     onClick={() => {
                         window.location.href = "https://whova.com/portal/registration/rowdy_202102/";
@@ -40,28 +40,7 @@ function HeroTitle() {
                 >
                     Register
                 </TitleButton>
-                {/*<TitleButton*/}
-                {/*    onClick={() => {*/}
-                {/*        window.location.href = "http://eepurl.com/gGfz3n";*/}
-                {/*    }}*/}
-                {/*>*/}
-                {/*    Get Updates*/}
-                {/*</TitleButton>*/}
-                {/*<TitleButton*/}
-                {/*  onClick={() => {*/}
-                {/*    window.location.href = "https://rowdyhacks.typeform.com/to/ImTIU6";*/}
-                {/*  }}*/}
-                {/*>*/}
-                {/*  Apply to be a volunteer/mentor!*/}
-                {/*</TitleButton>*/}
-                {/*<TitleButton*/}
-                {/*  onClick={() => {*/}
-                {/*    window.location.href = "https://apply.rowdyhacks.io/login.html";*/}
-                {/*  }}*/}
-                {/*>*/}
-                {/*  Check your profile!*/}
-                {/*</TitleButton>*/}
-            </ButtonWrapper>
+            </ButtonWrapper> */}
         </HeroTitleWrapper>
     );
 }

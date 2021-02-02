@@ -178,7 +178,6 @@ function SectionBlock(props: sectionProps) {
   return (
     <Divider id={id} key={id + "-section-" + sectionNumber}>
       <DividerNavigation id={`${id}-nav`}></DividerNavigation>
-      {/*<DividerMargin {...sectionTheme} />*/}
       <DividerTitleWrapper>
         <DividerTitleImage src={require("../../static/" + sectionTitle.theme.src + ".svg")}/>
         <DividerTitleText {...sectionTitle}>{sectionTitle.theme.title}</DividerTitleText>
