@@ -31,9 +31,6 @@ const FooterBannerImage = styled.img`
 const SocialMediaContent: React.FC = () => {
   return (
     <SocialMediaWrapper>
-      {/*<FooterBannerImage src={FooterBanner} />*/}
-      {/*<SocialMediaTitleWrapper>SOCIAL MEDIA</SocialMediaTitleWrapper>*/}
-      {/*<SocialTitleDivider />*/}
       <SocialTextWrapper>{SocialMediaText}</SocialTextWrapper>
       <LogoContainer>
         {socialLogos.map(logo => {

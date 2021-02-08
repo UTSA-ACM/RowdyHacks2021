@@ -79,6 +79,8 @@ const FAQCard = styled.div`
   border-radius: 25px;
   background: #d7bfe1;
   padding: 15px 15px;
+  a: link { color: black; }
+  a: visited { color: black; }
 `;
 
 const QuestionArrow = styled.div<AnswerProps>`

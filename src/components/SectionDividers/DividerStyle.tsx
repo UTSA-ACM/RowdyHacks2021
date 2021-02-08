@@ -47,41 +47,49 @@ const SectionContent = styled.div`
 const Divider = styled.section`
   display: flex;
   flex-direction: column;
+  margin-top: -30px;
 `;
 
 const DividerTitleWrapper = styled.div`
-  position: relative;
-  text-align: center;
-  padding-bottom: 2vw;
-  background-color: #080821;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const DividerTitleImage = styled.img`
-  width: 25%;
-  z-index: 10;
-  @media (max-width: 900px) {
-    width: 50%;
+  height: 360px;
+  width: 360px;
+  @media (max-width: 1050px) {
+    height: 300px;
+    width: 300px;
+  }
+  @media (max-width: 650px) {
+    height: 240px;
+    width: 240px;
   }
 `;
 
 const DividerTitleText = styled.div`
   position: absolute;
-  font-size: 2.7vw;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 42px;
   font-family: Poppins;
   font-weight: 700;
-  max-width: 25vw;
-  top: ${props => props.theme.topOffset}%;
-  left: ${props => props.theme.leftOffset}%;
-  @media (max-width: 900px) {
-    font-size: 5vw;
-    top: ${props => props.theme.topOffset+4}%;
-    left: ${props => props.theme.title == "FAQ" ? props.theme.leftOffset-1 : props.theme.leftOffset-5}%;
+  height: ${props => props.theme.yOffset+50}px;
+  transform: translateX(${props => props.theme.xOffset-50}px);
+  @media (max-width: 1050px) {
+    font-size: 34px;
+    height: ${props => props.theme.yOffset+40}px;
+  }
+  @media (max-width: 650px) {
+    font-size: 28px;
+    height: ${props => props.theme.yOffset+30}px;
   }
 `;
 
 const DividerNavigation = styled.div`
   position: relative;
-  top: -105px;
 `;
 
 export {

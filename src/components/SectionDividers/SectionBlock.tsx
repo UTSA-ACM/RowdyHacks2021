@@ -28,40 +28,36 @@ function SectionBlock(props: sectionProps) {
     {
       // About
       theme: {
-        main: "#080821",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0,
-        zindex: 5
+        zindex: 0//5
       }
     },
     {
       theme: {
-        main: "#027380",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: ((170 * screenWidth) / 1988) * -1,
-        zindex: 4
+        zindex: 0//4
       }
     },
     {
       // FAQ
       theme: {
-        main: "#080821",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0, //((170 * screenWidth) / 1988) * -1,
-        zindex: 3
+        zindex: 0//3
       }
     },
     {
       // Location
       theme: {
-        main: "#080821",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0, //((170 * screenWidth) / 1988) * -1,
-        zindex: 2
+        zindex: 0//2
       }
     },
     {
@@ -70,22 +66,21 @@ function SectionBlock(props: sectionProps) {
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0,
-        zindex: 4
+        zindex: 0//4
       }
     },
     // Social
-    { theme: { main: "#080821", zindex: 1 } },
+    { theme: { zindex: 1 } },
     {
       // Partner
       theme: { 
-        main: "#080821",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: 0, //((170 * screenWidth) / 1988) * -1,
         zindex: 0
       }
     },
-    { theme: { main: "#080821", margin: ((170 * screenWidth) / 1988) * -1 } },
+    { theme: { margin: ((170 * screenWidth) / 1988) * -1 } },
 
     {
       // Schedule
@@ -105,15 +100,15 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "About",
         src: "blob_1",
-        topOffset: 23,
-        leftOffset: 43,
+        yOffset: 50,
+        xOffset: 20,
       }
     },
     {
       theme: {
         title: "",
-        topOffset: 0,
-        leftOffset: 0
+        yOffset: 0,
+        xOffset: 0
       }
     },
     {
@@ -121,8 +116,8 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "FAQ",
         src: "blob_2",
-        topOffset: 27,
-        leftOffset: 48,
+        yOffset: 20,
+        xOffset: 65,
       }
     },
     {
@@ -130,15 +125,15 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "Location",
         src: "blob_3",
-        topOffset: 28,
-        leftOffset: 44
+        yOffset: 20,
+        xOffset: 48
       }
     },
     {
       theme: {
         title: "",
-        topOffset: 0,
-        leftOffset: 0
+        yOffset: 0,
+        xOffset: 0
       }
     },
     {
@@ -146,24 +141,24 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "Follow Us",
         src: "blob_3",
-        topOffset: 30,
-        leftOffset: 43.5
+        yOffset: 20,
+        xOffset: 50
       }
     },
     {
-      // Partner
+      // Sponsors
       theme: {
         title: "Sponsors",
         src: "blob_2",
-        topOffset: 28,
-        leftOffset: 45
+        yOffset: 10,
+        xOffset: 70
       }
     },
     {
       theme: {
         title: "",
-        topOffset: 0,
-        leftOffset: 0
+        yOffset: 0,
+        xOffset: 0
       }
     },
     {
@@ -171,8 +166,8 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "Schedule",
         src: "blob_1",
-        topOffset: 32,
-        leftOffset: 42.5
+        yOffset: 0,
+        xOffset: 0
       }
     },
   ];
@@ -183,7 +178,6 @@ function SectionBlock(props: sectionProps) {
   return (
     <Divider id={id} key={id + "-section-" + sectionNumber}>
       <DividerNavigation id={`${id}-nav`}></DividerNavigation>
-      {/*<DividerMargin {...sectionTheme} />*/}
       <DividerTitleWrapper>
         <DividerTitleImage src={require("../../static/" + sectionTitle.theme.src + ".svg")}/>
         <DividerTitleText {...sectionTitle}>{sectionTitle.theme.title}</DividerTitleText>
