@@ -32,7 +32,7 @@ function HeroTitle() {
             <DateWrapper {...{theme: {fontSize: fontSize(48)}}}>
                 {"March 26-28 2021"}
             </DateWrapper>
-            {/* <ButtonWrapper>
+            <ButtonWrapper>
                 <TitleButton
                     onClick={() => {
                         window.location.href = "https://whova.com/portal/registration/rowdy_202102/";
@@ -40,7 +40,7 @@ function HeroTitle() {
                 >
                     Register
                 </TitleButton>
-            </ButtonWrapper> */}
+            </ButtonWrapper>
         </HeroTitleWrapper>
     );
 }
