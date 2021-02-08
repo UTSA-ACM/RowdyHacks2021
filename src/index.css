@@ -9,10 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /*background: url(./static/background_stars_1.gif) left repeat-y,
-    url(./static/background_stars_1.gif) right repeat-y;*/
   background-color: #0c0c30;
-  /*background-size: 400px;*/
 }
 
 code {

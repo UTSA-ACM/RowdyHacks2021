@@ -1,46 +1,5 @@
 import styled from "styled-components";
 
-const RightAnimation = styled.img.attrs(props => ({
-  style: {
-    left: props.theme.dist + "px"
-  }
-}))`
-  position: absolute;
-  width: ${props => props.theme.width}px;
-  top: ${props => props.theme.top}px;
-  display: ${props => props.theme.display};
-  margin-left: ${props => props.theme.margin}px;
-`;
-
-const LeftAnimation = styled.img.attrs(props => ({
-  style: {
-    right: props.theme.dist + "px"
-  }
-}))`
-  position: absolute;
-  width: ${props => props.theme.width}px;
-  top: ${props => props.theme.top}px;
-  display: ${props => props.theme.display};
-  margin-right: ${props => props.theme.margin}px;
-`;
-
-const StillAnimation = styled.img`
-  position: absolute;
-  width: ${props => props.theme.width}px;
-  top: ${props => props.theme.top}px;
-  left: ${props => props.theme.dist}px;
-  z-index: 12;
-`;
-
-const TurnedStillAnimation = styled.img`
-  position: absolute;
-  width: ${props => props.theme.width}px;
-  top: ${props => props.theme.top}px;
-  left: ${props => props.theme.dist}px;
-  transform: scale(-1, 1);
-  z-index: 12;
-`;
-
 const HeroBg = styled.img`
   width: 100%;
   display: flex;
@@ -51,7 +10,6 @@ const HeroContainer = styled.div`
   position: relative;
   text-align: center;
   padding-bottom: 5vw;
-  background-color: #080821;
 `;
 
 const TitleWrapper = styled.div`
@@ -60,6 +18,9 @@ const TitleWrapper = styled.div`
   font-weight: 700;
   padding-top: 20px;
   text-shadow: 3px 3px white, 0 0 20px;
+  @media (max-width: 650px) {
+    text-shadow: 2px 2px white, 0 0 20px;
+  }
 `;
 
 const HeroTitleWrapper = styled.div`
@@ -68,7 +29,6 @@ const HeroTitleWrapper = styled.div`
   position: relative;
   z-index: 10;
   width: 100%;
-  background-color: #080821;
   padding-bottom: 5%;
   @media (max-width: 1200px) {
     margin-bottom: 0px;
@@ -121,8 +81,13 @@ const DateWrapper = styled.div`
 const QuoteImage = styled.img`
   width: 50%;
   z-index: 10;
-  @media (max-width: 900px) {
-    width: 75%;
+  @media (max-width: 950px) {
+    width: 70%;
+    padding-bottom: 8vw;
+  }
+  @media (max-width: 650px) {
+    width: 80%;
+    padding-bottom: 10vw;
   }
 `;
 
@@ -134,11 +99,17 @@ const HeroQuoteText = styled.div`
   max-width: 24vw;
   top: 26%;
   left: 30%;
-  @media (max-width: 900px) {
+  @media (max-width: 950px) {
     font-size: 3.2vw;
     max-width: 38vw;
-    top: 28%;
+    top: 22%;
     left: 20%;
+  }
+  @media (max-width: 650px) {
+    font-size: 3.8vw;
+    max-width: 44vw;
+    top: 22%;
+    left: 15.5%;
   }
 `;
 
@@ -150,19 +121,21 @@ const HeroQuoteAuthor = styled.div`
   max-width: 10vw;
   bottom: 25%;
   right: 27%;
-  @media (max-width: 900px) {
-    font-size: 2.5vw;
+  @media (max-width: 950px) {
+    font-size: 2.4vw;
+    max-width: 20vw;
+    bottom: 33%;
+    right: 14%;
+  }
+  @media (max-width: 650px) {
+    font-size: 3.0vw;
     max-width: 17vw;
-    bottom: 21%;
-    right: 15%;
+    bottom: 32%;
+    right: 13%;
   }
 `;
 
 export {
-  RightAnimation,
-  LeftAnimation,
-  StillAnimation,
-  TurnedStillAnimation,
   HeroBg,
   HeroContainer,
   TitleWrapper,

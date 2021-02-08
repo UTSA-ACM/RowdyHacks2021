@@ -6,8 +6,6 @@ import {
   BronzePartnerImage,
   OtherPartnerImage,
   PartnerContentWrapper,
-  PartnerTitleWrapper,
-  PartnerTitleDivider,
   GoldPartnerContainer,
   SilverPartnerContainer,
   BronzePartnerContainer,
@@ -181,7 +179,6 @@ const otherPartners = [
 const PartnerContent: React.FC = () => {
   return (
     <PartnerContentWrapper>
-      {/*<PartnerTitleWrapper>OUR 2021 PARTNERS</PartnerTitleWrapper>*/}
       {/*<PartnerTitleDivider />*/}
       {/*<GoldPartnerSection />*/}
       {/*<SilverPartnerSection />*/}
