@@ -8,7 +8,7 @@ import FAQSection from "./sections/FAQ/FAQSection";
 import ScheduleSection from "./sections/Schedule/ScheduleSection";
 import UpdateSection from "./sections/Updates/UpdateSection";
 import GlobalFonts from "./fonts/fonts";
-import {Holder} from "./AppStyle";
+import {Holder, StarBackground} from "./AppStyle";
 import {NavBarMargin} from "./components/NavBar/NavBarStyle";
 import LocationSection from "./sections/Location/LocationSection";
 
@@ -49,7 +49,6 @@ const Home: React.FC = () => {
     return (
         <div>
             <Holder>
-                {/*<Alerts />*/}
                 <NavBar titles={titleNames}/>
             </Holder>
             <Hero/>

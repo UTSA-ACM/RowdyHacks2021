@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import bgStarLeft from "./static/background_stars_1.gif";
+import bgStarRight from "./static/background_stars_1.gif";
 
 const BackgroundTheme = styled.div`
   max-width: 100vw;
@@ -12,4 +14,9 @@ const Holder = styled.div`
   z-index: 9999;
 `;
 
-export { BackgroundTheme, Holder };
+const StarBackground = styled.body`
+  background: url(${bgStarLeft}) repeat-y left, url(${bgStarRight}) repeat-y right;
+  background-size: 400px;
+`;
+
+export { BackgroundTheme, Holder, StarBackground };

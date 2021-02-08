@@ -100,15 +100,15 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "About",
         src: "blob_1",
-        topOffset: 23,
-        leftOffset: 43,
+        yOffset: 50,
+        xOffset: 20,
       }
     },
     {
       theme: {
         title: "",
-        topOffset: 0,
-        leftOffset: 0
+        yOffset: 0,
+        xOffset: 0
       }
     },
     {
@@ -116,8 +116,8 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "FAQ",
         src: "blob_2",
-        topOffset: 27,
-        leftOffset: 48,
+        yOffset: 20,
+        xOffset: 65,
       }
     },
     {
@@ -125,15 +125,15 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "Location",
         src: "blob_3",
-        topOffset: 28,
-        leftOffset: 44
+        yOffset: 20,
+        xOffset: 48
       }
     },
     {
       theme: {
         title: "",
-        topOffset: 0,
-        leftOffset: 0
+        yOffset: 0,
+        xOffset: 0
       }
     },
     {
@@ -141,24 +141,24 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "Follow Us",
         src: "blob_3",
-        topOffset: 30,
-        leftOffset: 43.5
+        yOffset: 20,
+        xOffset: 50
       }
     },
     {
-      // Partner
+      // Sponsors
       theme: {
         title: "Sponsors",
         src: "blob_2",
-        topOffset: 28,
-        leftOffset: 45
+        yOffset: 10,
+        xOffset: 70
       }
     },
     {
       theme: {
         title: "",
-        topOffset: 0,
-        leftOffset: 0
+        yOffset: 0,
+        xOffset: 0
       }
     },
     {
@@ -166,8 +166,8 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "Schedule",
         src: "blob_1",
-        topOffset: 32,
-        leftOffset: 42.5
+        yOffset: 0,
+        xOffset: 0
       }
     },
   ];

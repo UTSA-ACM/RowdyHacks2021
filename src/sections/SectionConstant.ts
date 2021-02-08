@@ -53,7 +53,7 @@ const FAQAnswers: Array<any> = [
 ];
 
 const LocationText: string =
-  "RowdyHacks 2021 will be virtual.";
+  "RowdyHacks 2021 will be virtual on Whova.";
 
 const SocialMediaText: string =
   "For live updates and announcements, follow us on social media!";
