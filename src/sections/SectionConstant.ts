@@ -34,8 +34,6 @@ const FAQQuestions: Array<string> = [
   "What actions will RowdyHacks be taking regards to COVID-19?",
   "RowdyHacks and another hackathon are during the same weekend. Can I submit my project to both of them?",
   "How long does this hackathon last?",
-  "What are the different competition tracks?",
-  "Who can attend?",
   "What if this FAQ didn't answer my question?"
 ];
 
@@ -51,8 +49,6 @@ const FAQAnswers: Array<any> = [
   "RowdyHacks VI will be virtual and hosted through WHOVA! Keep up to date through our social medias and our mailing list.",
   "Unfortunately, even if you attend two virtual hackathons on the same weekend, you can't submit the same project to both hackathons.",
   "RowdyHacks VI will last 40 hours. We wanted to extend RowdyHacks this year to give hackers some extra time to hack and squeeze in some quality sleep.",
-  "Hackers can submit their projects to either the Learners Track (geared towards those who are in intro CS classes or those who haven't coded before) or the General Track (for those with moderate to advanced skills). In addition to submitting projects to a track, hackers can also submit their project for cybersecurity, hardware, or sponsor prizes.",
-  "RowdyHacks is completely free to attend and open to any university or college student over 18 years of age. We also welcome recent grads! If you've graduated in the past year, you're also eligible to attend!",
   "Please e-mail team@rowdyhacks.org. We will get back to you and give you the best support."
 ];
 
@@ -60,8 +56,7 @@ const LocationText: string =
   "RowdyHacks 2021 will be virtual on Whova.";
 
 const SocialMediaText: string =
-    "Head over to our Instagram to get hackathon tips, event updates, and enter our giveaway!✨";
-  // "For live updates and announcements, follow us on social media!";
+  "For live updates and announcements, follow us on social media!";
 
 const FooterText: string =
   "RowdyHacks is hosted by Roadrunners from UTSA. If you're interested in becoming a partner, please e-mail ";
