@@ -38,7 +38,7 @@ const FAQQuestions: Array<string> = [
 ];
 
 const FAQAnswers: Array<any> = [
-  "A hackathon is a 24 hour event where teams collaborate on a project to create social impact, satisfy company challenges, and innovate new solutions. At RowdyHacks, mentors will be willing to assist you on your quest to creating your project.",
+  "Our hackathon is a 40 hour event where teams collaborate on a project to create social impact, satisfy company challenges, and innovate new solutions. At RowdyHacks, mentors will be willing to assist you on your quest to creating your project.",
   "RowdyHacks is absolutely FREE thanks to our awesome partners. You don't have to worry about a thing -- we'll provide t-shirts, swag, and prizes.",
   "No worries! RowdyHacks is for everyone from all coding and non-coding backgrounds! We will have plenty of mentors and workshops to help you learn throughout the event.",
   "Teams can consist of up to 4 students! We encourage hackers to participate as part of a team. Don't have a team? No worries, we will have an opportunity before the event for you to meet other hackers and form teams!",
