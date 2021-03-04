@@ -48,15 +48,15 @@ const SocialMediaContent: React.FC = () => {
           );
         })}
       </LogoContainer>
-      {/*<CodeofConduct>*/}
-      {/*  <a*/}
-      {/*    href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"*/}
-      {/*    target="_blank"*/}
-      {/*    rel="noopener noreferrer"*/}
-      {/*  >*/}
-      {/*    MLH Code of Conduct*/}
-      {/*  </a>*/}
-      {/*</CodeofConduct>*/}
+      <CodeofConduct>
+        <a
+          href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          MLH Code of Conduct
+        </a>
+      </CodeofConduct>
     </SocialMediaWrapper>
   );
 };
