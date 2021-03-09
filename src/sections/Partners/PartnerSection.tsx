@@ -35,16 +35,17 @@ const goldPartners = [
 ];
 
 const silverPartners = [
-  {
+  /*{
     name: "Google",
     fileType: "png",
     link: "https://careers.google.com/students/"
-  },
+  },*/
   {
     name: "Google_Geo",
     fileType: "jpg",
-    link: "https://maps.google.com/"
-  },
+    link: "https://maps.google.com/",
+    bgColor: "#d7bfe1"
+  }/*,
   {
     name: "USAA",
     fileType: "png",
@@ -59,10 +60,17 @@ const silverPartners = [
     name: "UTSA_CS",
     fileType: "png",
     link: "https://cs.utsa.edu/"
-  }
+  }*/
 ];
 
 const bronzePartners = [
+  {
+    name: "UTSA_COS",
+    fileType: "png",
+    link: "https://www.utsa.edu/sciences/",
+    bgColor: "#d7bfe1"
+  }
+  /*
   {
     name: "CivTechSA",
     fileType: "png",
@@ -144,7 +152,7 @@ const bronzePartners = [
     name: "Twilio",
     fileType: "png",
     link: "https://www.twilio.com/"
-  }
+  }*/
 ];
 
 const otherPartners = [
@@ -180,10 +188,10 @@ const PartnerContent: React.FC = () => {
   return (
     <PartnerContentWrapper>
       {/*<PartnerTitleDivider />*/}
-      {/*<GoldPartnerSection />*/}
-      {/*<SilverPartnerSection />*/}
-      {/*<BronzePartnerSection />*/}
-      {/*<OtherPartnerSection />*/}
+      {/* <GoldPartnerSection /> */}
+      {/* <SilverPartnerSection /> */}
+      <BronzePartnerSection />
+      {/* <OtherPartnerSection /> */}
       <FooterContainer>
         {FooterText}
         <Link href="mailto:sponsorship@rowdyhacks.org" target="_blank">

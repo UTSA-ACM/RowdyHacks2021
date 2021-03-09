@@ -7,6 +7,7 @@ import LocationSection from "./Location/LocationSection";
 import PartnerSection from "./Partners/PartnerSection";
 import SocialMediaSection from "./SocialMedia/SocialMediaSection";
 import ScheduleSection from "./Schedule/ScheduleSection";
+import MentorSection from "./Mentors/MentorSection";
 
 function LazyLoadedSections() {
   return (
@@ -19,6 +20,7 @@ function LazyLoadedSections() {
       {/*<ScheduleSection sectionNumber={8} />*/}
       
       <PartnerSection />
+      <MentorSection />
       <SocialMediaSection />
     </BackgroundTheme>
   );
