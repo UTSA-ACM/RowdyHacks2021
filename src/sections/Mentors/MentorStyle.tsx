@@ -1,25 +1,13 @@
 import styled from "styled-components";
 import { getParseTreeNode } from "typescript";
-import star from "./static/star_3.svg";
-
-// wrapper content (div)
-
-// mentor card (div)
-
-  // headshot (img component) (circle bauble-esque styling)
-
-  // text component (name)
-
-  // text component (skills)
 
 const MentorContentWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   color: #ffffff;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  margin-top: -100px;
   width: 100%;
 `;
 
@@ -31,6 +19,7 @@ const MentorCardContainer = styled.div`
   box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.75);
   position: relative;
   padding-top: 20px;
+  margin-right: 20px;
 `;
 
 const MentorCardStar = styled.img`
