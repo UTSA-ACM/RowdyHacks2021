@@ -7,6 +7,10 @@ const GoldPartnerImage = styled.img`
   margin: 10px 30px;
   margin-top: 50px;
   padding-top: ${props => props.theme.padding}px;
+  background-color: #d7bfe1;
+  border-radius: 15px;
+  padding: 10px;
+  background-image: linear-gradient(to right, #7576BB, #d7bfe1);
   @media (max-width: 800px) {
     max-height: 115px;
     max-width: 220px;
@@ -31,6 +35,10 @@ const SilverPartnerImage = styled.img`
   max-height: 190px;
   max-width: 370px;
   margin: 40px 20px 10px;
+  //background-color: #d7bfe1;
+  border-radius: 15px;
+  padding: 10px;
+  background-image: linear-gradient(to right, #7576BB, #d7bfe1);
   @media (max-width: 800px) {
     margin: 15px 10px;
     max-height: 80px;
@@ -51,13 +59,14 @@ const SilverPartnerContainer = styled.div`
 `;
 
 const BronzePartnerImage = styled.img`
-  max-height: 120px;
   min-height: 30px;
+  max-height: 90px;
   min-width: 120px;
-  max-width: 320px;
+  max-width: 240px;
   margin: 25px 5px 5px;
-  background-color: ${props => props.theme.backgroundColor};
-  padding: 5px;
+  border-radius: 15px;
+  padding: 10px;
+  background-image: linear-gradient(to right, #7576BB, #d7bfe1);
   @media (max-width: 800px) {
     max-height: 60px;
     max-width: 140px;
@@ -66,6 +75,7 @@ const BronzePartnerImage = styled.img`
     margin: 10px 5px;
   }
 `;
+//background-color: ${props => props.theme.backgroundColor};
 
 const BronzePartnerContainer = styled.div`
   display: flex;
@@ -128,16 +138,19 @@ const OtherPartnerContainer = styled.div`
 
 const OtherPartnerImage = styled.img`
   max-height: 120px;
-  max-width: 370px;
+  max-width: 240px;
   margin: 20px 20px;
-  padding: 5px;
-  background-color: ${props => props.theme.backgroundColor};
+  padding: 20px;
+  background-image: linear-gradient(to right, #7576BB, #d7bfe1);
+  border-radius: 15px;
+  padding: 15px;
   @media (max-width: 800px) {
     margin: 15px 10px;
     max-height: 80px;
     max-width: 180px;
   }
 `;
+//  background-color: ${props => props.theme.backgroundColor};
 
 const FooterContainer = styled.p`
   width: 40vw;

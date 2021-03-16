@@ -91,6 +91,15 @@ function SectionBlock(props: sectionProps) {
         margin: ((170 * screenWidth) / 1988) * -1,
         zindex: 0
       }
+    },
+    {
+      // Mentors
+      theme: {
+        src: "bar-dark-purple",
+        altName: "darkpurpleBanner",
+        margin: ((170 * screenWidth) / 1988) * -1,
+        zindex: 0
+      }
     }
   ];
 
@@ -168,6 +177,15 @@ function SectionBlock(props: sectionProps) {
         src: "blob_1",
         yOffset: 0,
         xOffset: 0
+      }
+    },
+    {
+      // Mentor
+      theme: {
+        title: "Mentors",
+        src: "blob_2",
+        yOffset: 10,
+        xOffset: 70
       }
     },
   ];
