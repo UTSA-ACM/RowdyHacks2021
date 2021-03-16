@@ -20,7 +20,7 @@ function LazyLoadedSections() {
       {/*<ScheduleSection sectionNumber={8} />*/}
       
       <PartnerSection />
-      <MentorSection />
+      {/*<MentorSection />*/}
       <SocialMediaSection />
     </BackgroundTheme>
   );
