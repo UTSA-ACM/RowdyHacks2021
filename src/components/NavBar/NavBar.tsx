@@ -19,11 +19,11 @@ function NavBar(props: { titles: Array<MenuLink> }) {
   const [open, setOpen] = useState(false);
   const toggleOpen = () => {
     setOpen(!open);
-    /*if (open) {
+    if (open) {
       document.getElementById("mlh-trust-badge").style.visibility = "visible";
     } else {
       document.getElementById("mlh-trust-badge").style.visibility = "hidden";
-    }*/
+    }
   };
 
   const bgColor = () => {
@@ -132,7 +132,7 @@ const MobileMenuWrapper = styled.div`
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #034872;
+  background-color: #312E5F;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
