@@ -17,7 +17,7 @@ function LazyLoadedSections() {
       {/*<MissionSection />*/}
       <FAQSection />
       <LocationSection sectionNumber={3} />
-      {/*<ScheduleSection sectionNumber={8} />*/}
+      <ScheduleSection sectionNumber={8} />
       
       <PartnerSection />
       {/*<MentorSection />*/}
