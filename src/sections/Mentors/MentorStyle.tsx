@@ -80,7 +80,7 @@ const MentorHeadshot = styled.img`
 `;
 
 const MentorName = styled.div`
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   font-family: Open Sans;
   font-color: #F9D564;
@@ -94,7 +94,7 @@ const MentorName = styled.div`
 const MentorDescription = styled.div`
   padding-right: 5px;
   padding-left: 5px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   font-family: Open Sans;
   @media (max-width: 950px) {

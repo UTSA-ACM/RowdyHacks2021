@@ -62,7 +62,49 @@ const mentorsList = [
     fileType: "png",
     description: "Texas A&M Graduate. I enjoy Python.",
     link: "https://linkedin.com/in/kevinj97"
-  }
+  },
+  {
+    name: "Rakshaa Viswanathan",
+    headshot: "Rakshaa-Viswanathan",
+    fileType: "jpg",
+    description: "I hail from Chennai, India. I am in my junior year doing Electrical and Electronics Engineering. I am primarily a web developer with an interest in AI and IoT. My hobbies include dancing, singing, making goofy projects, and reading fiction. My favorite programming language is C++.",
+    link: "https://www.linkedin.com/in/rakshaa-viswanathan-0aa891199"
+  },
+  {
+    name: "Jesse Hu",
+    headshot: "Jesse-Hu",
+    fileType: "png",
+    description: "I'm a student at the University of Washington. I'm deeply interested tech and am passionate about hackathons. I also enjoy building projects for the social good and the greater community. My favorite programming language is Python. Outside of class, I like to swim, practice karate and play the violin.",
+    link: "https://www.linkedin.com/in/jessehu312\n"
+  },
+  {
+    name: "Krish Munot",
+    headshot: "Krish-Munot",
+    fileType: "jpg",
+    description: "Self Taught engineer, 2x Startup Founder, Hacker at heart, Currently a Product Manager at a cool startup taking things from 0 to 1. Love to go solo backpacking, board game enthusiast, and likes petting every dog I come across.",
+    link: "https://linkedin.com/in/krishmunot\n"
+  },
+  {
+    name: "Sreekaran Srinath",
+    headshot: "Sreekaran-Srinath",
+    fileType: "jpeg",
+    description: "I'm a 21-yo Software Engineer based out of Chennai, IN. I enjoy building things, anime, sports, reading, and all things tech! I'm a SWE Intern at ZohoCorp, AngelHack Ambassador, MLH Mentor, and serial hacker :) I'm active on Twitter(@sk4rn), so if you want to reach me, my DMs are always open!",
+    link: "https://twitter.com/sk4rn\n"
+  },
+  {
+    name: "Pavithraa Panchatcharam",
+    headshot: "Pavithraa-Panchatcharam",
+    fileType: "jpeg",
+    description: "After earning Bachelors in Computer Science from India, I worked for 3 years as a Developer and quit my job to explore my passion for Science. Currently a graduate student at Northeastern University, Boston. As an engineer, I love to see the impact of the work that we do create on real-life entities. I love to travel and sing.",
+    link: "https://www.linkedin.com/in/pavithraa-panch/\n"
+  },
+  {
+    name: "Deep Ramanayake",
+    headshot: "Deep-Ramanayake",
+    fileType: "jpg",
+    description: "I am from Northern Kentucky and Teach at the Xavier University Cincinnati. I love to play CTF in any free time I have.",
+    link: "https://www.linkedin.com/in/deep-r-31906010/\n"
+  },
 ];
 
 const MentorCard: React.FC = () => {
