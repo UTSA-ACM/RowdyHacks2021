@@ -27,42 +27,6 @@ function PartnerSection() {
 }
 
 const goldPartners = [
-  { name: "FrostBank", link: "https://www.frostbank.com/" },
-  { name: "ManTech", link: "https://www.mantech.com/", paddingTop: 30 },
-  { name: "TechData", link: "https://www.techdata.com/", paddingTop: 30 },
-  { name: "AFCS", link: "http://www.afciviliancareers.com/" },
-  { name: "iHeartMedia", link: "https://www.iheartmedia.com/", paddingTop: 30 }
-];
-
-const silverPartners = [
-  {
-    name: "Google",
-    fileType: "png",
-    link: "https://careers.google.com/students/"
-  },
-  {
-    name: "Google_Geo",
-    fileType: "jpg",
-    link: "https://maps.google.com/"
-  },
-  {
-    name: "USAA",
-    fileType: "png",
-    link: "https://www.usaa.com/"
-  },
-  {
-    name: "CNF",
-    fileType: "jpg",
-    link: "https://www.cnftech.com/welcome"
-  },
-  {
-    name: "UTSA_CS",
-    fileType: "png",
-    link: "https://cs.utsa.edu/"
-  }
-];
-
-const bronzePartners = [
   {
     name: "CivTechSA",
     fileType: "png",
@@ -70,80 +34,52 @@ const bronzePartners = [
     bgColor: "#ffffff"
   },
   {
-    name: "Valero",
+    name: "TechData",
+    link: "https://www.techdata.com/",
+    paddingTop: 30
+  },
+  // { name: "FrostBank", link: "https://www.frostbank.com/" },
+  // { name: "ManTech", link: "https://www.mantech.com/", paddingTop: 30 },
+  // { name: "AFCS", link: "http://www.afciviliancareers.com/" },
+  // { name: "iHeartMedia", link: "https://www.iheartmedia.com/", paddingTop: 30 }
+];
+
+const silverPartners = [
+  {
+    name: "Accenture",
     fileType: "png",
-    link: "https://www.valero.com/en-us",
-    bgColor: "#ffffff"
-  },
-  {
-    name: "Webhead",
-    fileType: "png",
-    link: "https://www.webheadtech.com/",
-    bgColor: "#ffffff"
-  },
-  {
-    name: "Posh",
-    fileType: "png",
-    link: "https://www.dawnzer.po.sh",
-    bgColor: "#ffffff"
-  },
-  {
-    name: "Paycom",
-    fileType: "png",
-    link: "https://www.paycom.com",
-    bgColor: "#ffffff"
-  },
-  {
-    name: "HEB",
-    fileType: "jpg",
-    link: "https://www.heb.com/",
-    bgColor: "#ffffff"
-  },
-  {
-    name: "NSCC",
-    fileType: "jpg",
-    link: "http://www.utsa.edu/president/reporting-offices/nscc/",
-    bgColor: "#ffffff"
-  },
-  {
-    name: "UTSA_COS",
-    fileType: "png",
-    link: "https://www.utsa.edu/sciences/",
-    bgColor: "#ffffff"
+    link: "https://www.accenture.com/us-en"
   },
   {
     name: "UTSA_SDS",
     fileType: "png",
-    link: "https://provost.utsa.edu/sds/",
-    bgColor: "#212529"
+    link: "https://provost.utsa.edu/sds/"
+  },
+  // {
+  //   name: "NSA",
+  //   fileType: "png",
+  //   link: "https://www.nsa.gov/"
+  // }
+];
+
+const bronzePartners = [
+  // {
+  //   name: "PwC",
+  //   fileType: "png",
+  //   link: "https://www.pwc.com/",
+  //   bgColor: "#ffffff"
+  // }
+  {
+    name: "UTSA_COS",
+    fileType: "png",
+    link: "https://www.utsa.edu/sciences/",
+    bgColor: "#d7bfe1"
   },
   {
-    name: "UTSA_ISCS",
+    name: "HEB",
     fileType: "png",
-    link:
-      "https://business.utsa.edu/departments/information-systems-and-cyber-security/"
-  },
-  {
-    name: "UTSA_Research",
-    fileType: "png",
-    link:
-      "https://www.utsa.edu/president/organization/vp-search/VPREDKE-Search.html",
+    link: "https://www.heb.com/",
     bgColor: "#ffffff"
-  },
-  {
-    name: "NSA",
-    fileType: "png",
-    link: "https://www.nsa.gov/"
-  },
-  {
-    name: "ATT",
-    fileType: "png",
-    link: "https://www.att.com/"
-  },
-  {
-    name: "Twilio",
-    fileType: "png",
-    link: "https://www.twilio.com/"
   }
 ];
 
@@ -151,26 +87,18 @@ const otherPartners = [
   {
     name: "MLH",
     link: "https://mlh.io/",
-    fileType: "png"
+    fileType: "png",
+    bgColor: "#000000"
   },
   {
-    name: "StickerMule",
-    link: "http://hackp.ac/mlh-stickermule-hackathons",
-    fileType: "png"
+    name: "UTSA_ISCS",
+    link: "https://business.utsa.edu/departments/information-systems-and-cyber-security/",
+    fileType: "png",
+    bgColor: "#000000"
   },
   {
-    name: "TiffsTreat",
-    link: "https://www.cookiedelivery.com/",
-    fileType: "jpg"
-  },
-  {
-    name: "Piccadilly",
-    link: "https://popcornpiccadilly.com/",
-    fileType: "png"
-  },
-  {
-    name: "Nerd",
-    link: "http://www.nerdfocus.com/",
+    name: "UTSA_Career_Center",
+    link: "https://careercenter.utsa.edu/",
     fileType: "png",
     bgColor: "#000000"
   }
@@ -179,17 +107,18 @@ const otherPartners = [
 const PartnerContent: React.FC = () => {
   return (
     <PartnerContentWrapper>
-      {/*<PartnerTitleDivider />*/}
-      {/*<GoldPartnerSection />*/}
-      {/*<SilverPartnerSection />*/}
-      {/*<BronzePartnerSection />*/}
-      {/*<OtherPartnerSection />*/}
+      <GoldPartnerSection />
+      <SilverPartnerSection />
+      <BronzePartnerSection />
+      <OtherPartnerSection />
+
       <FooterContainer>
         {FooterText}
         <Link href="mailto:sponsorship@rowdyhacks.org" target="_blank">
           sponsorship@rowdyhacks.org
         </Link>
       </FooterContainer>
+
       <FooterContainer>
         {FooterText2}
         <Link href={"https://drive.google.com/file/d/13Qoj3DCyShSyV9VMJQ_MeSlzIWRs-WV2/view?usp=sharing"}>
