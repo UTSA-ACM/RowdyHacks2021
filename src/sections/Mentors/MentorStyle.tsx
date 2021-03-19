@@ -22,14 +22,14 @@ const MentorCardContainer = styled.div`
   max-height: 370px;
   background-color: #7576BB;
   border-radius: 15px;
-  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.75);
   padding-top: 20px;
   @media (max-width: 950px) {
     width: 220px;
     height: 270px;
     max-width: 220px;
     max-height: 270px;
-    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
   }
 `;
 
@@ -51,7 +51,7 @@ const MentorCardBottom = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 158px;
+  height: 157px;
   background-color: #312E5F;
   border-radius: 0px 0px 15px 15px;
   @media (max-width: 950px) {
