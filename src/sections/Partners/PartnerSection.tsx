@@ -38,10 +38,6 @@ const goldPartners = [
     link: "https://www.techdata.com/",
     paddingTop: 30
   },
-  // { name: "FrostBank", link: "https://www.frostbank.com/" },
-  // { name: "ManTech", link: "https://www.mantech.com/", paddingTop: 30 },
-  // { name: "AFCS", link: "http://www.afciviliancareers.com/" },
-  // { name: "iHeartMedia", link: "https://www.iheartmedia.com/", paddingTop: 30 }
 ];
 
 const silverPartners = [
@@ -55,24 +51,36 @@ const silverPartners = [
     fileType: "png",
     link: "https://provost.utsa.edu/sds/"
   },
-  // {
-  //   name: "NSA",
-  //   fileType: "png",
-  //   link: "https://www.nsa.gov/"
-  // }
+  {
+    name: "NSA",
+    fileType: "jpg",
+    link: "https://www.nsa.gov/"
+  }
 ];
 
 const bronzePartners = [
-  // {
-  //   name: "PwC",
-  //   fileType: "png",
-  //   link: "https://www.pwc.com/",
-  //   bgColor: "#ffffff"
-  // }
+  {
+    name: "PwC",
+    fileType: "svg",
+    link: "https://www.pwc.com/",
+    bgColor: "#ffffff"
+  },
   {
     name: "UTSA_COS",
     fileType: "png",
     link: "https://www.utsa.edu/sciences/",
+    bgColor: "#d7bfe1"
+  },
+  {
+    name: "HCL",
+    fileType: "png",
+    link: "https://www.hcltech.com/",
+    bgColor: "#d7bfe1"
+  },
+  {
+    name: "FrostBank",
+    fileType: "png",
+    link: "https://www.frostbank.com/",
     bgColor: "#d7bfe1"
   },
   {
@@ -85,23 +93,29 @@ const bronzePartners = [
 
 const otherPartners = [
   {
-    name: "MLH",
-    link: "https://mlh.io/",
-    fileType: "png",
-    bgColor: "#000000"
-  },
-  {
     name: "UTSA_ISCS",
-    link: "https://business.utsa.edu/departments/information-systems-and-cyber-security/",
+    link: "https://business.utsa.edu/information-systems-cyber-security/",
     fileType: "png",
     bgColor: "#000000"
   },
+  // {
+  //   name: "UTSA_COE",
+  //   link: "https://mlh.io/",
+  //   fileType: "png",
+  //   bgColor: "#000000"
+  // },
   {
     name: "UTSA_Career_Center",
     link: "https://careercenter.utsa.edu/",
     fileType: "png",
     bgColor: "#000000"
-  }
+  },
+  {
+    name: "MLH",
+    link: "https://mlh.io/",
+    fileType: "png",
+    bgColor: "#000000"
+  },
 ];
 
 const PartnerContent: React.FC = () => {
