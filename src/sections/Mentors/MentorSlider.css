@@ -22,9 +22,21 @@
   color: #d7bfe1;
 }
 
+@media screen and (max-width: 950px) {
+  .slick-dots li button:before {
+    padding-top: 40px;
+  }
+}
+
 .slick-dots li.slick-active button:before {
   font-size: 20px;
   line-height: 20px;
   padding-top: 10px;
   color: #d7bfe1;
+}
+
+@media screen and (max-width: 950px) {
+  .slick-dots li.slick-active button:before {
+    padding-top: 40px;
+  }
 }

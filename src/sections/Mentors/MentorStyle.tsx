@@ -52,10 +52,16 @@ const MentorCardBottom = styled.div`
   align-items: center;
   justify-content: center;
   height: 157px;
+  width: 300px;
+  position: absolute;
+  bottom: 0;
   background-color: #312E5F;
   border-radius: 0px 0px 15px 15px;
   @media (max-width: 950px) {
     height: 120px;
+    width: 220px;
+    max-height: 120px;
+    max-width: 220px;
   }
 `;
 
@@ -80,25 +86,21 @@ const MentorHeadshot = styled.img`
 `;
 
 const MentorName = styled.div`
-  font-size: 28px;
+  font-size: ${props => props.theme.fontSize}px;
   font-weight: 700;
   font-family: Open Sans;
   font-color: #F9D564;
-  padding-top: 5px;
-  margin-bottom: 10px;
-  @media (max-width: 950px) {
-    font-size: 22px;
-  }
+  padding-top: ${props => props.theme.padding}px;
 `;
 
 const MentorDescription = styled.div`
   padding-right: 5px;
   padding-left: 5px;
-  font-size: 14px;
+  font-size: ${props => props.theme.fontSize}px;
   font-weight: 700;
   font-family: Open Sans;
   @media (max-width: 950px) {
-    font-size: 12px;
+    font-size: ${props => props.theme.fontSize-4}px;
   }
 `;
 

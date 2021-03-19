@@ -109,6 +109,7 @@ const mentorsList = [
 
 const MentorCard: React.FC = () => {
   const screenWidth = useWindowWidth();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -117,6 +118,35 @@ const MentorCard: React.FC = () => {
     slidesToScroll: 1,
     arrows: true,
   };
+
+  const getNameSize = (name: string) => {
+    // mobile/tablet
+    if (screenWidth <= 950) {
+      if (name.length >= 28) return 15;
+      if (name.length >= 22) return 17;
+      if (name.length >= 16) return 20;
+      return 22;
+    }
+    if (name.length >= 28) return 16;
+    if (name.length >= 22) return 20;
+    if (name.length >= 16) return 24;
+    return 32;
+  };
+
+  const getDescSize = (desc: string) => {
+    if (desc.length > 250) return 14;
+    if (desc.length > 230) return 14.5;
+    if (desc.length > 200) return 15;
+    return 16;
+  };
+
+  const getNamePadding = (name: string) => {
+    if (name.length >= 28) return 18;
+    if (name.length >= 22) return 15;
+    if (name.length >= 16) return 10;
+    return 5;
+  }
+
   return (
       <CarouselContainer>
         <Slider {...settings}>
@@ -135,9 +165,9 @@ const MentorCard: React.FC = () => {
                     alt={name}
                   />
               </a>
-              <MentorName>{name}</MentorName>
+              <MentorName {...{theme: {fontSize: getNameSize(name), padding: getNamePadding(name)}}}>{name}</MentorName>
               <MentorCardBottom>
-                <MentorDescription>{description}</MentorDescription>
+                <MentorDescription {...{theme: {fontSize: getDescSize(description)}}}>{description}</MentorDescription>
               </MentorCardBottom>
             </MentorCardContainer>
           );
