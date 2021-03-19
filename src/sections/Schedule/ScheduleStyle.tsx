@@ -37,7 +37,7 @@ const ScheduleEvent = styled.tr`
   margin: 10px 5px;
   max-width: 400px;
   color: #ffffff;
-  background-color: #027380;
+  background-color: #7576BB;
   font-family: Helvetica;
   border-top: 1px solid #333333;
   padding: 100px;

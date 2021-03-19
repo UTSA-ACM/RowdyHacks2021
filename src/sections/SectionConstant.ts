@@ -60,8 +60,7 @@ const LocationText: string =
   "RowdyHacks 2021 will be virtual on Whova.";
 
 const SocialMediaText: string =
-    "Head over to our Instagram to get hackathon tips, event updates, and enter our giveaway!✨";
-  // "For live updates and announcements, follow us on social media!";
+  "For live updates and announcements, follow us on social media!";
 
 const FooterText: string =
   "RowdyHacks is hosted by Roadrunners from UTSA. If you're interested in becoming a partner, please e-mail ";
@@ -122,135 +121,242 @@ const UpdatesConstants = {
 const ScheduleConstants = {
   days: [
     {
-      date: "March 28th",
-      dayOfWeek: "Saturday",
+      date: "March 24th",
+      dayOfWeek: "Wednesday",
       events: [
         {
-          title: "Check-in Begins",
-          time: "8:00 AM CST",
-          location: "Discord"
-        },
-        {
-          title: "Virtual Tabling",
-          time: "9:00 AM CST",
-          location: "Zoom (Sign up for time slots on Discord)"
-        },
-        {
-          title: "Opening Ceremony",
-          time: "11:00 AM CST",
-          location: "Youtube"
-        },
-        {
-          title: "Hacking Begins",
-          time: "12:00 PM CST",
-          location: ""
-        },
-        {
-          title: "Virtual Tabling Continues",
-          time: "12:00 PM CST",
-          location: "Zoom (Sign up for time slots on Discord)"
-        },
-        {
-          title: "Google Workshop: Google Geo",
-          time: "1:30 PM CST",
-          location: "Google Hangouts"
-        },
-        {
-          title: "Learners Workshop #1: Git/Github",
-          time: "1:30 PM CST",
-          location: "Zoom (Archives on Youtube)"
-        },
-        {
-          title:
-            "TechData Workshop: Tools to Increase Security Posture from IBM",
-          time: "1:30 PM CST",
-          location: "Zoom (Archives will be on Youtube)"
-        },
-        {
-          title: "Google Workshop: Open-source API",
-          time: "2:30 PM CST",
-          location: "Google Hangouts"
-        },
-        {
-          title: "Learners Workshop #2: Intro to Java",
-          time: "3:00 PM CST",
-          location: "Zoom (Archives on Youtube)"
-        },
-        {
-          title: "MLH Side Event: CTF",
-          time: "4:00 PM CST",
-          location: "Discord"
-        },
-        {
-          title: "Learners Workshop #3: Intro to Web Development",
-          time: "4:30 PM CST",
-          location: "Zoom (Archives on Youtube)"
-        },
-        {
-          title: "Loteria (Mexican Bingo) Activity",
-          time: "5:00 PM CST",
-          location: "Discord"
-        },
-        {
-          title: "TechData Cyber Range Challenge",
-          time: "5:00 PM CST",
-          location: "Discord"
-        },
-        {
-          title: " Q&A with the Father of Python Guido van Rossum",
-          time: "6:00 PM CST",
-          location: "Twitch Link: twitch.tv/twilio"
-        },
-        {
-          title: "Learners Workshop #4: The Importance of UI/UX",
-          time: "7:30 PM CST",
-          location: "Zoom (Archives on Youtube)"
-        },
-        {
-          title: "Loteria (Mexican Bingo) Activity",
-          time: "8:30 PM CST",
-          location: "Discord"
-        },
-        {
-          title: "MLH Side Event: Slideshow Karaoke",
-          time: "9:00 PM CST",
-          location: "Discord"
+          title: "RowdyHacks Team Building Social",
+          time: "5:15 PM CST",
+          location: "Zoom.RowdyHacks.org"
         }
       ]
     },
     {
-      date: "March 29th",
-      dayOfWeek: "Sunday",
+      date: "March 26th",
+      dayOfWeek: "Friday",
       events: [
         {
-          title: "MS Painting with Bob Ross",
-          time: "12:30 AM CST",
-          location: "Discord"
+          title: "Tech Career Expo",
+          time: "11:00 AM CST",
+          location: "Handshake"
         },
         {
-          title: "Loteria (Mexican Bingo) Activity",
+          title: "Hacker Check-in Starts",
+          time: "2:00 PM CST",
+          location: "Whova"
+        },
+        {
+          title: "Virtual Tabling",
+          time: "4:00 PM CST",
+          location: "Whova"
+        },
+        {
+          title: "Show and Tell Team Building",
+          time: "6:30 PM CST",
+          location: ""
+        },
+        {
+          title: "Opening Ceremony",
+          time: "7:30 PM CST",
+          location: "Whova"
+        },
+        {
+          title: "Hacking Begins",
+          time: "8:00 PM CST",
+          location: "Whova"
+        },
+        // {
+        //   title: "Cyber Range Live Demo",
+        //   time: "8:00 PM CST",
+        //   location: ""
+        // },
+        {
+          title: "Learners Workshop: intro to java",
+          time: "9:00 PM CST",
+          location: ""
+        },
+        {
+          title: "TechData: Intro to CTF",
+          time: "9:00 PM CST",
+          location: ""
+        },
+        {
+          title: "Learners workshop: intro to python",
+          time: "10:30 PM CST",
+          location: ""
+        },
+        {
+          title: "General workshop: Unity Workshop",
+          time: "10:30 PM CST",
+          location: ""
+        },
+        {
+          title: "Loteria Social",
+          time: "11:30 PM CST",
+          location: "Whova"
+        },
+      ]
+    },
+    {
+      date: "March 27th",
+      dayOfWeek: "Saturday",
+      events: [
+        {
+          title: "Bob Ross Painting Social",
+          time: "1:30 AM CST",
+          location: "Whova"
+        },
+        {
+          title: "How to get Twilio's API up and running in 30 minutes",
+          time: "9:00 AM CST",
+          location: ""
+        },
+        {
+          title: "Learners Workshop: Github Workshop",
+          time: "10:30 AM CST",
+          location: ""
+        },
+        {
+          title: "Intro to ReactJS",
+          time: "10:30 AM CST",
+          location: ""
+        },
+        {
+          title: "Product Management Decoded",
+          time: "11:00 AM CST",
+          location: ""
+        },
+        {
+          title: "Half-Baked CivTech",
+          time: "11:00 AM CST",
+          location: ""
+        },
+        {
+          title: "Learners Workshop: Crash Course on C++",
+          time: "12:00 PM CST",
+          location: ""
+        },
+        {
+          title: "TechData: Day in the Life of a Red Teamer",
+          time: "12:00 PM CST",
+          location: ""
+        },
+        {
+          title: "General Workshop: Deep Learning and Cyber Seccurity",
+          time: "1:30 PM CST",
+          location: ""
+        },
+        {
+          title: "TechData: Day in the Life of a Blue Teamer",
+          time: "1:30 PM CST",
+          location: ""
+        },
+        {
+          title: "Typing / Backyard.co Social",
+          time: "2:00 PM CST",
+          location: "Whova"
+        },
+        {
+          title: "Preparing For Your Future in Technology",
+          time: "3:00 PM CST",
+          location: ""
+        },
+        {
+          title: "CFT Starts",
+          time: "3:00 PM CST",
+          location: ""
+        },
+        {
+          title: "CTF Starts",
+          time: "3:00 PM CST",
+          location: ""
+        },
+        {
+          title: "TechData: Security as a Team Force",
+          time: "4:30 PM CST",
+          location: "Whova"
+        },
+        // {
+        //   title: "Topic Uncertain for ICPC/ALG/DS",
+        //   time: "4:30 PM CST",
+        //   location: "Whova"
+        // },
+        {
+          title: "TechData Panel",
+          time: "6:00 PM CST",
+          location: "Whova"
+        },
+        {
+          title: "Cloud Computing",
+          time: "6:00 PM CST",
+          location: "Whova"
+        },
+        // {
+        //   title: "CivTech Event",
+        //   time: "6:00 PM CST",
+        //   location: "Whova"
+        // },
+        {
+          title: "Hackathon Organizer Meetup",
+          time: "10:30 PM CST",
+          location: ""
+        },
+        {
+          title: "Tivia Night Social",
+          time: "11:30 PM CST",
+          location: ""
+        },
+      ]
+    },
+    {
+      date: "March 28th",
+      dayOfWeek: "Sunday",
+      events: [
+        // {
+        //   title: "Another Social?",
+        //   time: "1:00 AM CST",
+        //   location: ""
+        // },
+        {
+          title: "Pitch Workshop",
           time: "8:00 AM CST",
-          location: "Discord"
+          location: ""
         },
         {
           title: "Submissions Due",
-          time: "12:00 PM CST",
-          location: "Devpost"
+          time: "11:00 AM CST",
+          location: ""
         },
         {
-          title: "Hacking Ends and Judging Begins",
+          title: "Hacking Ends",
+          time: "12:00 PM CST",
+          location: ""
+        },
+        {
+          title: "General Workshop: Continuing a Project After a Hackathon",
           time: "1:00 PM CST",
-          location: "Devpost"
+          location: "Whova"
+        },
+        {
+          title: "Judging Begins",
+          time: "1:00 PM CST",
+          location: ""
+        }
+      ]
+    },
+    {
+      date: "April 2nd",
+      dayOfWeek: "Friday",
+      events: [
+        {
+          title: "Hacker's Choice Award Ends",
+          time: "6:00 PM CST",
+          location: "Whova"
         },
         {
           title: "Closing Ceremony",
-          time: "3:00 PM CST",
-          location: "Youtube"
-        },
-        {
-          title: "Event Ends",
-          time: "4:00 PM CST",
-          location: ""
+          time: "8:00 PM CST",
+          location: "Whova"
         }
       ]
     }
