@@ -302,7 +302,7 @@ const ScheduleConstants = {
           location: ""
         },
         {
-          title: "Tivia Night Social",
+          title: "Trivia Night Social",
           time: "11:30 PM CST",
           location: ""
         },

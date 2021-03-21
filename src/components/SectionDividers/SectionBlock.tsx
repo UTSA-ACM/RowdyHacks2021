@@ -158,7 +158,7 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "Sponsors",
         src: "blob_2",
-        yOffset: 10,
+        yOffset: 18,
         xOffset: 70
       }
     },
@@ -174,8 +174,8 @@ function SectionBlock(props: sectionProps) {
       theme: {
         title: "Schedule",
         src: "blob_1",
-        yOffset: 0,
-        xOffset: 0
+        yOffset: 70,
+        xOffset: 20
       }
     },
     {
