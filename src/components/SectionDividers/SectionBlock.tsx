@@ -182,9 +182,9 @@ function SectionBlock(props: sectionProps) {
       // Mentor
       theme: {
         title: "Mentors",
-        src: "blob_2",
-        yOffset: 10,
-        xOffset: 70
+        src: "blob_1",
+        yOffset: 43,
+        xOffset: 23
       }
     },
   ];
