@@ -51,7 +51,7 @@ const MentorCardBottom = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 157px;
+  height: 168px;
   width: 300px;
   position: absolute;
   bottom: 0;
