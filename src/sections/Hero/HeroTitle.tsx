@@ -40,6 +40,13 @@ function HeroTitle() {
                 >
                     Register
                 </TitleButton>
+                <TitleButton
+                    onClick={() => {
+                        window.location.href = "https://whova.com/portal/webapp/rowdy_202102";
+                    }}
+                >
+                    RowdyHacks Event
+                </TitleButton>
             </ButtonWrapper>
         </HeroTitleWrapper>
     );
