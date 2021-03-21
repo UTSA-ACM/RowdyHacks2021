@@ -56,13 +56,16 @@ const Schedule: React.FC = () => {
                   </td>
                 </ScheduleDate>
 
-                {events.map(({ title, time, location }) => {
+                {events.map(({ title, time, location , url}) => {
                   return (
                     <ScheduleEvent>
                       <ScheduleEventTime>{time}</ScheduleEventTime>
                       <ScheduleEventTitle>{title}</ScheduleEventTitle>
                       <ScheduleEventLocation>
-                        <Linkify>{location}</Linkify>
+                        {url !== ""
+                            ? <a href={url}>{location}</a>
+                            : <p>{location}</p>}
+                        {/*<Linkify>{location}</Linkify>*/}
                       </ScheduleEventLocation>
                     </ScheduleEvent>
                   );
