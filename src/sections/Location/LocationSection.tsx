@@ -32,13 +32,20 @@ const LocationContent: React.FC = () => {
       <LocationWrapper>
         <LocationTextWrapper>{LocationText}</LocationTextWrapper>
         <ButtonWrapper>
-                <TitleButton
-                    onClick={() => {
-                        window.location.href = "https://whova.com/portal/rowdy_202102/";
-                    }}
-                >
-                    Download Whova
-                </TitleButton>
+            <TitleButton
+                onClick={() => {
+                    window.location.href = "https://whova.com/portal/rowdy_202102/";
+                }}
+            >
+                Download Whova
+            </TitleButton>
+            <TitleButton
+                onClick={() => {
+                    window.location.href = "https://whova.com/portal/webapp/rowdy_202102";
+                }}
+            >
+                RowdyHacks Event
+            </TitleButton>
           </ButtonWrapper>
       </LocationWrapper>
     </LocationContainer>
