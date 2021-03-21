@@ -85,7 +85,6 @@ function SectionBlock(props: sectionProps) {
     {
       // Schedule
       theme: {
-        main: "#5faa86",
         src: "bar-dark-purple",
         altName: "darkpurpleBanner",
         margin: ((170 * screenWidth) / 1988) * -1,

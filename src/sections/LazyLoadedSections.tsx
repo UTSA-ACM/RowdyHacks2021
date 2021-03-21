@@ -12,15 +12,13 @@ import MentorSection from "./Mentors/MentorSection";
 function LazyLoadedSections() {
   return (
     <BackgroundTheme>
-      
       <AboutSection />
       {/*<MissionSection />*/}
       <FAQSection />
       <LocationSection sectionNumber={3} />
-      {/*<ScheduleSection sectionNumber={8} />*/}
+      <ScheduleSection sectionNumber={8} />
       <MentorSection />
       <PartnerSection />
-      
       <SocialMediaSection />
     </BackgroundTheme>
   );
