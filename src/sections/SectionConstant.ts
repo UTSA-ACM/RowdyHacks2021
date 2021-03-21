@@ -127,7 +127,8 @@ const ScheduleConstants = {
         {
           title: "RowdyHacks Team Building Social",
           time: "5:15 PM CST",
-          location: "Zoom.RowdyHacks.org"
+          location: "Zoom.RowdyHacks.org",
+          url: "https://zoom.rowdyhacks.org"
         }
       ]
     },
@@ -138,62 +139,74 @@ const ScheduleConstants = {
         {
           title: "Tech Career Expo",
           time: "11:00 AM CST",
-          location: "Handshake"
+          location: "Handshake",
+          url: "https://utsa.joinhandshake.com/career_fairs/23221One"
         },
         {
           title: "Hacker Check-in Starts",
           time: "2:00 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Virtual Tabling",
+          title: "Sponsorship Fair",
           time: "4:00 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
         {
           title: "Show and Tell Team Building",
           time: "6:30 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
           title: "Opening Ceremony",
           time: "7:30 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
         {
           title: "Hacking Begins",
           time: "8:00 PM CST",
-          location: "Whova"
+          location: "",
+          url: ""
         },
-        // {
-        //   title: "Cyber Range Live Demo",
-        //   time: "8:00 PM CST",
-        //   location: ""
-        // },
         {
-          title: "Learners Workshop: intro to java",
+          title: "UTSA Cyber Range: Live Demo",
+          time: "8:00 PM CST",
+          location: "Whova",
+          url: ""
+        },
+        {
+          title: "101 Workshop: Intro to Java with Gage",
           time: "9:00 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
           title: "TechData: Intro to CTF",
           time: "9:00 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Learners workshop: intro to python",
+          title: "101 Workshop: Intro to Python with Leon",
           time: "10:30 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "General workshop: Unity Workshop",
+          title: "Workshop: Utilizing Unity with Gene",
           time: "10:30 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Loteria Social",
+          title: "Social: Loteria",
           time: "11:30 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
       ]
     },
@@ -202,109 +215,118 @@ const ScheduleConstants = {
       dayOfWeek: "Saturday",
       events: [
         {
-          title: "Bob Ross Painting Social",
+          title: "Social: Bob Ross",
           time: "1:30 AM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
         {
-          title: "How to get Twilio's API up and running in 30 minutes",
+          title: "Workshops: How to Get Twilio's API Up and Running in 30 Minutes with Anna",
           time: "9:00 AM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Learners Workshop: Github Workshop",
+          title: "101 Workshop: Github 101 with Jenelle",
           time: "10:30 AM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Intro to ReactJS",
+          title: "101 Workshop: Intro to ReactJS with Shivay",
           time: "10:30 AM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Product Management Decoded",
+          title: "Workshop: Product Management Decoded with Krish",
           time: "11:00 AM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Half-Baked CivTech",
+          title: "CivTech: Half-Baked",
           time: "11:00 AM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Learners Workshop: Crash Course on C++",
+          title: "101 Workshop: C++ Crash Course with Nick",
           time: "12:00 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
           title: "TechData: Day in the Life of a Red Teamer",
           time: "12:00 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "General Workshop: Deep Learning and Cyber Seccurity",
+          title: "Workshop: Deep Learning and Cyber Security with Luis",
           time: "1:30 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
           title: "TechData: Day in the Life of a Blue Teamer",
           time: "1:30 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Typing / Backyard.co Social",
+          title: "Social: Typing Contest",
           time: "2:00 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Preparing For Your Future in Technology",
+          title: "Accenture: Preparing for Your Future in Technology",
           time: "3:00 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "CFT Starts",
+          title: "TechData: CTF Starts",
           time: "3:00 PM CST",
-          location: ""
-        },
-        {
-          title: "CTF Starts",
-          time: "3:00 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
           title: "TechData: Security as a Team Force",
           time: "4:30 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
-        // {
-        //   title: "Topic Uncertain for ICPC/ALG/DS",
-        //   time: "4:30 PM CST",
-        //   location: "Whova"
-        // },
         {
           title: "TechData Panel",
           time: "6:00 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Cloud Computing",
+          title: "Workshop: Cloud Computing with Comfort",
           time: "6:00 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
-        // {
-        //   title: "CivTech Event",
-        //   time: "6:00 PM CST",
-        //   location: "Whova"
-        // },
+        {
+          title: "Social: Project Show and Tell",
+          time: "9:00 PM CST",
+          location: "Whova",
+          url: ""
+        },
         {
           title: "Hackathon Organizer Meetup",
           time: "10:30 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
-          title: "Trivia Night Social",
+          title: "Social: Trivia Night",
           time: "11:30 PM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
       ]
     },
@@ -312,54 +334,38 @@ const ScheduleConstants = {
       date: "March 28th",
       dayOfWeek: "Sunday",
       events: [
-        // {
-        //   title: "Another Social?",
-        //   time: "1:00 AM CST",
-        //   location: ""
-        // },
         {
-          title: "Pitch Workshop",
+          title: "Workshop: Perfect your Pitch with Galicia",
           time: "8:00 AM CST",
-          location: ""
-        },
-        {
-          title: "Submissions Due",
-          time: "11:00 AM CST",
-          location: ""
+          location: "Whova",
+          url: ""
         },
         {
           title: "Hacking Ends",
           time: "12:00 PM CST",
-          location: ""
+          location: "DevPost",
+          url: ""
         },
         {
-          title: "General Workshop: Continuing a Project After a Hackathon",
+          title: "Workshop: The Path to Post-Hackathon Success with Christina",
           time: "1:00 PM CST",
-          location: "Whova"
+          location: "Whova",
+          url: ""
         },
         {
           title: "Judging Begins",
           time: "1:00 PM CST",
-          location: ""
+          location: "",
+          url: ""
+        },
+        {
+          title: "Closing Ceremonies",
+          time: "8:00 PM CST",
+          location: "Whova",
+          url: ""
         }
       ]
     },
-    {
-      date: "April 2nd",
-      dayOfWeek: "Friday",
-      events: [
-        {
-          title: "Hacker's Choice Award Ends",
-          time: "6:00 PM CST",
-          location: "Whova"
-        },
-        {
-          title: "Closing Ceremony",
-          time: "8:00 PM CST",
-          location: "Whova"
-        }
-      ]
-    }
   ]
 };
 
