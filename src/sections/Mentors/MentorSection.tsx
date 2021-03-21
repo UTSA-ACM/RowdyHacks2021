@@ -87,14 +87,14 @@ const mentorsList = [
   {
     name: "Sreekaran Srinath",
     headshot: "Sreekaran-Srinath",
-    fileType: "jpeg",
+    fileType: "png",
     description: "I'm a 21-yo Software Engineer based out of Chennai, IN. I enjoy building things, anime, sports, reading, and all things tech! I'm a SWE Intern at ZohoCorp, AngelHack Ambassador, MLH Mentor, and serial hacker :) I'm active on Twitter(@sk4rn), so if you want to reach me, my DMs are always open!",
     link: "https://twitter.com/sk4rn\n"
   },
   {
     name: "Pavithraa Panchatcharam",
     headshot: "Pavithraa-Panchatcharam",
-    fileType: "jpeg",
+    fileType: "png",
     description: "After earning Bachelors in Computer Science from India, I worked for 3 years as a Developer and quit my job to explore my passion for Science. Currently a graduate student at Northeastern University, Boston. As an engineer, I love to see the impact of the work that we do create on real-life entities. I love to travel and sing.",
     link: "https://www.linkedin.com/in/pavithraa-panch/\n"
   },
