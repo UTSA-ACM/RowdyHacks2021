@@ -137,7 +137,7 @@ const ScheduleConstants = {
       dayOfWeek: "Friday",
       events: [
         {
-          title: "Tech Career Expo",
+          title: "Tech Career Expo (UTSA Students Only)",
           time: "11:00 AM CST",
           location: "Handshake",
           url: "https://utsa.joinhandshake.com/career_fairs/23221One"
@@ -221,7 +221,7 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "Workshops: How to Get Twilio's API Up and Running in 30 Minutes with Anna",
+          title: "Workshop: How to Get Twilio's API Up and Running in 30 Minutes with Anna",
           time: "9:00 AM CST",
           location: "Whova",
           url: ""
@@ -341,9 +341,9 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "Hacking Ends",
+          title: "Hacking Ends, Submissions Due on Devpost",
           time: "12:00 PM CST",
-          location: "DevPost",
+          location: "",
           url: ""
         },
         {
@@ -352,12 +352,12 @@ const ScheduleConstants = {
           location: "Whova",
           url: ""
         },
-        {
-          title: "Judging Begins",
-          time: "1:00 PM CST",
-          location: "",
-          url: ""
-        },
+        // {
+        //   title: "Judging Begins",
+        //   time: "1:00 PM CST",
+        //   location: "",
+        //   url: ""
+        // },
         {
           title: "Closing Ceremonies",
           time: "8:00 PM CST",
