@@ -74,35 +74,42 @@ const mentorsList = [
     headshot: "Jesse-Hu",
     fileType: "png",
     description: "I'm a student at the University of Washington. I'm deeply interested tech and am passionate about hackathons. I also enjoy building projects for the social good and the greater community. My favorite programming language is Python. Outside of class, I like to swim, practice karate and play the violin.",
-    link: "https://www.linkedin.com/in/jessehu312\n"
+    link: "https://www.linkedin.com/in/jessehu312"
   },
   {
     name: "Krish Munot",
     headshot: "Krish-Munot",
     fileType: "jpg",
     description: "Self Taught engineer, 2x Startup Founder, Hacker at heart, Currently a Product Manager at a cool startup taking things from 0 to 1. Love to go solo backpacking, board game enthusiast, and likes petting every dog I come across.",
-    link: "https://linkedin.com/in/krishmunot\n"
+    link: "https://linkedin.com/in/krishmunot"
   },
   {
     name: "Sreekaran Srinath",
     headshot: "Sreekaran-Srinath",
     fileType: "png",
     description: "I'm a 21-yo Software Engineer based out of Chennai, IN. I enjoy building things, anime, sports, reading, and all things tech! I'm a SWE Intern at ZohoCorp, AngelHack Ambassador, MLH Mentor, and serial hacker :) I'm active on Twitter(@sk4rn), so if you want to reach me, my DMs are always open!",
-    link: "https://twitter.com/sk4rn\n"
+    link: "https://twitter.com/sk4rn"
   },
   {
     name: "Pavithraa Panchatcharam",
     headshot: "Pavithraa-Panchatcharam",
     fileType: "png",
     description: "After earning Bachelors in Computer Science from India, I worked for 3 years as a Developer and quit my job to explore my passion for Science. Currently a graduate student at Northeastern University, Boston. As an engineer, I love to see the impact of the work that we do create on real-life entities. I love to travel and sing.",
-    link: "https://www.linkedin.com/in/pavithraa-panch/\n"
+    link: "https://www.linkedin.com/in/pavithraa-panch/"
   },
   {
     name: "Deep Ramanayake",
     headshot: "Deep-Ramanayake",
     fileType: "jpg",
     description: "I am from Northern Kentucky and Teach at the Xavier University Cincinnati. I love to play CTF in any free time I have.",
-    link: "https://www.linkedin.com/in/deep-r-31906010/\n"
+    link: "https://www.linkedin.com/in/deep-r-31906010/"
+  },
+  {
+    name: "Maggie Wang",
+    headshot: "Maggie-Wang",
+    fileType: "jpg",
+    description: "I work at Google in San Francisco Bay Area. I love hackathons and I'm excited to help you build cool things together.",
+    link: ""
   },
 ];
 
@@ -158,14 +165,14 @@ const MentorCard: React.FC = () => {
             <MentorCardContainer>
               <MentorCardStar src={require("../../static/star_3.svg")}/>
               <a href={link} key={name + "-mentor"}>
-                  <MentorHeadshot
+                <MentorHeadshot
                     key={name + "Image"}
                     src={require("../../static/MentorHeadshots/" +
-                      headshot +
-                      "." +
-                      fileType)}
+                        headshot +
+                        "." +
+                        fileType)}
                     alt={name}
-                  />
+                />
               </a>
               <MentorName {...{theme: {fontSize: getNameSize(name), padding: getNamePadding(name)}}}>{name}</MentorName>
               <MentorCardBottom>
