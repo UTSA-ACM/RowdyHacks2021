@@ -40,7 +40,6 @@ const mentorsList = [
     headshot: "shivay_lamba",
     fileType: "png",
     description: "I am a Software Engineer currently working at Amazon. I am also a Google Summer of Code Mentor.",
-    //description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type a",
     link: "https://twitter.com/howdevelop"
   },
   {
@@ -117,6 +116,9 @@ const MentorCard: React.FC = () => {
     slidesToShow: screenWidth <= 950 ? 1 : 3,
     slidesToScroll: 1,
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
   };
 
   const getNameSize = (name: string) => {
