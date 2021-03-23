@@ -111,6 +111,41 @@ const mentorsList = [
     description: "I work at Google in San Francisco Bay Area. I love hackathons and I'm excited to help you build cool things together.",
     link: ""
   },
+  // {
+  //   name: "Phicc",
+  //   headshot: "phicc",
+  //   fileType: "png",
+  //   description: "Phicc (He/Him/His, pronounced /fick/) is the most trusted rubber duckie known to mankind. He spends every waking day and night assigning programmers with the problems they face. Date of adoption: April 13t, 2019; Adoptive parent: Jada Ebong; Siblings: Bhicc, other rubber duckies. Besides his size, Phicc does nothing small.",
+  //   link: ""
+  // },
+  {
+    name: "Adam McPherson",
+    headshot: "Adam-McPherson",
+    fileType: "png",
+    description: "Graduating with a degree in Software Engineering I currently work at USAA working on the Interactive Voice Response system. I've been on the team for 2 years and learning how to maneuver the corporate landscape.  I really like learning new programming languages and working on my home lab! Favorite language is Clojure.",
+    link: "https://www.linkedin.com/in/admcpherson"
+  },
+  {
+    name: "Rishabh Shukla",
+    headshot: "Rishabh-Shukla",
+    fileType: "jpg",
+    description: "I am a tech lover who dreams of doing great things with his C++ knowledge. I am a chapter leader at Change the Code, Hong Kong, Mentor at Script Winter of Code who believes in when one teaches two learn.",
+    link: "https://www.linkedin.com/in/rishabh-shukla-69362b177/"
+  },
+  {
+    name: "Sophia Kurihara",
+    headshot: "default",
+    fileType: "png",
+    description: "Prior to being a Technical Writer at Figma, Sophie was a Software Development Instructor at Codeup. Her background is in Computer Science and UX Design. In Sophie's free time, she loves to write music and spend time outdoors.",
+    link: "https://www.linkedin.com/in/sophiakurihara/"
+  },
+  {
+    name: "Nishant Grover",
+    headshot: "Nishant-Grover",
+    fileType: "jpg",
+    description: "A fellow UTSA alumni, who graduated with a Bachelors in Computer Science in 2017, and was highly active with the local ACM chapter at the time. Been a San Antonio local for about 9 years now. Currently employed with Accenture Federal Services as a Software Engineering Sr Analyst. Favorite hobbies includes painting and playing video games socially.",
+    link: "https://www.linkedin.com/in/nishantgroverutsa"
+  },
 ];
 
 const MentorCard: React.FC = () => {
