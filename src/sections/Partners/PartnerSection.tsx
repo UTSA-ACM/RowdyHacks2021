@@ -38,6 +38,12 @@ const goldPartners = [
     link: "https://www.techdata.com/",
     paddingTop: 30
   },
+  {
+    name: "FrostBank",
+    fileType: "png",
+    link: "https://www.frostbank.com/",
+    bgColor: "#d7bfe1"
+  },
 ];
 
 const silverPartners = [
@@ -75,12 +81,6 @@ const bronzePartners = [
     name: "HCL",
     fileType: "png",
     link: "https://www.hcltech.com/",
-    bgColor: "#d7bfe1"
-  },
-  {
-    name: "FrostBank",
-    fileType: "png",
-    link: "https://www.frostbank.com/",
     bgColor: "#d7bfe1"
   },
   {
