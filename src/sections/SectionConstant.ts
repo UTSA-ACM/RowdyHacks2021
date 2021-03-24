@@ -343,7 +343,7 @@ const ScheduleConstants = {
         {
           title: "Hacking Ends, Submissions Due on Devpost",
           time: "12:00 PM CST",
-          location: "",
+          location: "https://rowdyhacks2021.devpost.com/?ref_feature=challenge&ref_medium=discover",
           url: ""
         },
         {
