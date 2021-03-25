@@ -59,7 +59,7 @@ const SilverPartnerContainer = styled.div`
 `;
 
 const BronzePartnerImage = styled.img`
-  min-height: 30px;
+  min-height: 80px;
   max-height: 90px;
   min-width: 120px;
   max-width: 240px;
@@ -137,7 +137,7 @@ const OtherPartnerContainer = styled.div`
 `;
 
 const OtherPartnerImage = styled.img`
-  max-height: 120px;
+  max-height: 60px;
   max-width: 240px;
   margin: 20px 20px;
   padding: 20px;

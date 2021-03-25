@@ -61,7 +61,12 @@ const silverPartners = [
     name: "NSA",
     fileType: "jpg",
     link: "https://www.nsa.gov/"
-  }
+  },
+  {
+    name: "UTSA_CS",
+    fileType: "png",
+    link: "https://cs.utsa.edu/"
+  },
 ];
 
 const bronzePartners = [
@@ -72,7 +77,7 @@ const bronzePartners = [
     bgColor: "#ffffff"
   },
   {
-    name: "UTSA_COS",
+    name: "UTSA_COS_01",
     fileType: "png",
     link: "https://www.utsa.edu/sciences/",
     bgColor: "#d7bfe1"
@@ -98,12 +103,12 @@ const otherPartners = [
     fileType: "png",
     bgColor: "#000000"
   },
-  // {
-  //   name: "UTSA_COE",
-  //   link: "https://mlh.io/",
-  //   fileType: "png",
-  //   bgColor: "#000000"
-  // },
+  {
+    name: "UTSA_COE",
+    link: "https://engineering.utsa.edu/",
+    fileType: "png",
+    bgColor: "#000000"
+  },
   {
     name: "UTSA_Career_Center",
     link: "https://careercenter.utsa.edu/",
