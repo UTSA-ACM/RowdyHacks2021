@@ -116,6 +116,12 @@ const otherPartners = [
     fileType: "png",
     bgColor: "#000000"
   },
+  {
+    name: "TheCodex",
+    link: "http://thecodex.me/",
+    fileType: "png",
+    bgColor: "#000000"
+  },
 ];
 
 const PartnerContent: React.FC = () => {
