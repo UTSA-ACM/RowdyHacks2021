@@ -214,7 +214,7 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "TechData: Intro to CTF",
+          title: "Tech Data: Intro to CTF - What to expect and how to engage?",
           time: "9:00 PM CST",
           location: "Whova",
           url: ""
@@ -280,7 +280,7 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "TechData: Day in the Life of a Red Teamer",
+          title: "Tech Data: Day in the Life of a Red Teamer",
           time: "12:00 PM CST",
           location: "Whova",
           url: ""
@@ -292,7 +292,7 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "TechData: Day in the Life of a Blue Teamer",
+          title: "Tech Data: Day in the Life of a Blue Teamer",
           time: "1:30 PM CST",
           location: "Whova",
           url: ""
@@ -316,19 +316,19 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "TechData: CTF Starts",
+          title: "Tech Data: CTF Starts",
           time: "3:00 PM CST",
           location: "Whova",
           url: ""
         },
         {
-          title: "TechData: Security as a Team Force",
+          title: "Tech Data: Security as a Team Force",
           time: "4:30 PM CST",
           location: "Whova",
           url: ""
         },
         {
-          title: "TechData Panel",
+          title: "Tech Data Panel",
           time: "6:00 PM CST",
           location: "Whova",
           url: ""
