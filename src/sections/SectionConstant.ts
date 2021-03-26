@@ -180,8 +180,8 @@ const ScheduleConstants = {
         {
           title: "Hacker Check-in Starts",
           time: "2:00 PM CST",
-          location: "Whova",
-          url: ""
+          location: "Typeform",
+          url: "https://rowdyhacks.typeform.com/to/wosaExeU"
         },
         {
           title: "RowdyHacks Career Fair",
