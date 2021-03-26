@@ -58,9 +58,9 @@ const silverPartners = [
     link: "https://provost.utsa.edu/sds/"
   },
   {
-    name: "NSA",
-    fileType: "jpg",
-    link: "https://www.nsa.gov/"
+    name: "NSA_02",
+    fileType: "png",
+    link: "https://www.IntelligenceCareers.gov/NSA"
   },
   {
     name: "UTSA_CS",
@@ -104,7 +104,7 @@ const otherPartners = [
     bgColor: "#000000"
   },
   {
-    name: "UTSA_COE",
+    name: "UTSA_COE_01",
     link: "https://engineering.utsa.edu/",
     fileType: "png",
     bgColor: "#000000"
@@ -137,19 +137,19 @@ const PartnerContent: React.FC = () => {
       <BronzePartnerSection />
       <OtherPartnerSection />
 
-      <FooterContainer>
-        {FooterText}
-        <Link href="mailto:sponsorship@rowdyhacks.org" target="_blank">
-          sponsorship@rowdyhacks.org
-        </Link>
-      </FooterContainer>
+      {/*<FooterContainer>*/}
+      {/*  {FooterText}*/}
+      {/*  <Link href="mailto:sponsorship@rowdyhacks.org" target="_blank">*/}
+      {/*    sponsorship@rowdyhacks.org*/}
+      {/*  </Link>*/}
+      {/*</FooterContainer>*/}
 
-      <FooterContainer>
-        {FooterText2}
-        <Link href={"https://drive.google.com/file/d/13Qoj3DCyShSyV9VMJQ_MeSlzIWRs-WV2/view?usp=sharing"}>
-          our sponsorship packet
-        </Link>
-      </FooterContainer>
+      {/*<FooterContainer>*/}
+      {/*  {FooterText2}*/}
+      {/*  <Link href={"https://drive.google.com/file/d/13Qoj3DCyShSyV9VMJQ_MeSlzIWRs-WV2/view?usp=sharing"}>*/}
+      {/*    our sponsorship packet*/}
+      {/*  </Link>*/}
+      {/*</FooterContainer>*/}
     </PartnerContentWrapper>
   );
 };

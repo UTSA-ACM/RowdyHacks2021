@@ -111,13 +111,13 @@ const mentorsList = [
     description: "I work at Google in San Francisco Bay Area. I love hackathons and I'm excited to help you build cool things together.",
     link: ""
   },
-  // {
-  //   name: "Phicc",
-  //   headshot: "phicc",
-  //   fileType: "png",
-  //   description: "Phicc (He/Him/His, pronounced /fick/) is the most trusted rubber duckie known to mankind. He spends every waking day and night assigning programmers with the problems they face. Date of adoption: April 13t, 2019; Adoptive parent: Jada Ebong; Siblings: Bhicc, other rubber duckies. Besides his size, Phicc does nothing small.",
-  //   link: ""
-  // },
+  {
+    // name: "Phicc",
+    // headshot: "phicc",
+    // fileType: "png",
+    // description: "Phicc (He/Him/His, pronounced /fick/) is the most trusted rubber duckie known to mankind. He spends every waking day and night assigning programmers with the problems they face. Date of adoption: April 13t, 2019; Adoptive parent: Jada Ebong; Siblings: Bhicc, other rubber duckies. Besides his size, Phicc does nothing small.",
+    // link: ""
+  },
   {
     name: "Adam McPherson",
     headshot: "Adam-McPherson",
