@@ -17,6 +17,8 @@ const Holder = styled.div`
 const StarBackground = styled.body`
   background: url(${bgStarLeft}) repeat-y left, url(${bgStarRight}) repeat-y right;
   background-size: 400px;
+  @media (max-width: 800px) {
+    background: none;
 `;
 
 export { BackgroundTheme, Holder, StarBackground };
