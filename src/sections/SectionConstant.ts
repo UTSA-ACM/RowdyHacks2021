@@ -237,12 +237,6 @@ const ScheduleConstants = {
           location: "Whova",
           url: ""
         },
-        {
-          title: "Social: Loteria",
-          time: "11:30 PM CST",
-          location: "Whova",
-          url: ""
-        },
       ]
     },
     {
