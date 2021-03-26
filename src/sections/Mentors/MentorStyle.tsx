@@ -7,7 +7,7 @@ const MentorContentWrapper = styled.div`
   justify-content: center;
   color: #ffffff;
   padding-bottom: 50px;
-  margin-top: -100px;
+  margin-top: -80px;
   width: 100%;
   @media (max-width: 950px) {
     padding-bottom: 20px;
@@ -90,7 +90,10 @@ const MentorName = styled.div`
   font-weight: 700;
   font-family: Open Sans;
   font-color: #F9D564;
-  padding-top: ${props => props.theme.padding}px;
+  padding-top: ${props => props.theme.padding-5}px;
+  @media (max-width: 950px) {
+    padding-top: ${props => props.theme.padding}px;
+  }
 `;
 
 const MentorDescription = styled.div`

@@ -16,9 +16,9 @@ const titleNames = [
     {title: "About", link: "/#about-nav"},
     {title: "FAQ", link: "/#faq-nav"},
     {title: "Location", link: "/#location-nav"},
+    {title: "Schedule", link: "./#schedule"},
     {title: "Mentors", link: "/#mentors-nav"},
     {title: "Sponsors", link: "/#partners-nav"},
-    {title: "Schedule", link: "./#schedule"},
     {title: "Updates", link: "./updates"},
     {title: "2020", link: "https://2020.rowdyhacks.io/"}
     // {title: "Community Partners", link: "https://defhacks.co/hackathons/global_2.0.html"}, //link: "https://defhacks.co/hackathons/global_2.0.html"
