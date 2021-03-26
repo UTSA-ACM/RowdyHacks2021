@@ -250,6 +250,12 @@ const ScheduleConstants = {
       dayOfWeek: "Saturday",
       events: [
         {
+          title: "Social: Watch Party",
+          time: "3:30 AM CST",
+          location: "Whova",
+          url: ""
+        },
+        {
           title: "Workshop: How to Get Twilio's API Up and Running in 30 Minutes with Anna",
           time: "9:00 AM CST",
           location: "Whova",
@@ -304,7 +310,7 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "Social: Typing Contest",
+          title: "Social: Scribble.io",
           time: "2:00 PM CST",
           location: "Whova",
           url: ""
@@ -322,13 +328,13 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "Tech Data: Security as a Team Force",
+          title: "Tech Data: Team Sport",
           time: "4:30 PM CST",
           location: "Whova",
           url: ""
         },
         {
-          title: "Tech Data Panel",
+          title: "Tech Data: Ask Me Anything – Live Panel Session",
           time: "6:00 PM CST",
           location: "Whova",
           url: ""
