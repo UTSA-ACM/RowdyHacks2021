@@ -114,7 +114,42 @@ const UpdatesConstants = {
       message: [
         "As the new officers of Rowdyhacks 2021 continue to monitor the Coronavirus impact, we will update on our Socials and here."
       ]
-    }
+    },
+    {
+      title: "Registration is Officially Live!",
+      date: "Feb. 8, 2021",
+      message: [
+        "Head on over to register on our official conferencing app, Whova! Pick up a Hacker ticket and get ready for the fun!😎"
+      ]
+    },
+    {
+      title: "MLH Official",
+      date: "Mar. 8, 2021",
+      message: [
+        "Excited to announce that we are now a Major League Hacking 2021 Season Event!"
+      ]
+    },
+    {
+      title: "Excited for the Weekend!",
+      date: "Mar. 22, 2021",
+      message: [
+        "Have you found a team? Checked out our sponsors yet? See the amazing prizes available on this years tracks? 🦆 Check them all out on Whova now!"
+      ]
+    },
+    {
+      title: "Looking for some Team Building?",
+      date: "Mar. 24, 2021",
+      message: [
+        "Today at 7:30 PM CST RowdyHacks organizers will be having information and social session for hackers to meet! Join at https://zoom.rowdyhacks.org"
+      ]
+    },
+    {
+      title: "RowdyHacks Starts Tomorrow!",
+      date: "Mar. 25, 2021",
+      message: [
+        "Make sure you've made some weekend preparations, checked out the agenda and familiarized yourself with Whova because we are ready to go! We will also be publicizing a Hacker Survival guide soon so keep an eye out!"
+      ]
+    },
   ]
 };
 
@@ -127,9 +162,9 @@ const ScheduleConstants = {
         {
           title: "RowdyHacks Team Building Social",
           time: "5:15 PM CST",
-          location: "Zoom.RowdyHacks.org",
+          location: "zoom.RowdyHacks.org",
           url: "https://zoom.rowdyhacks.org"
-        }
+        },
       ]
     },
     {
@@ -149,7 +184,7 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "Sponsorship Fair",
+          title: "RowdyHacks Career Fair",
           time: "4:00 PM CST",
           location: "Whova",
           url: ""
@@ -179,25 +214,25 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "101 Workshop: Intro to Java with Gage",
-          time: "9:00 PM CST",
-          location: "Whova",
-          url: ""
-        },
-        {
           title: "TechData: Intro to CTF",
           time: "9:00 PM CST",
           location: "Whova",
           url: ""
         },
         {
-          title: "101 Workshop: Intro to Python with Leon",
-          time: "10:30 PM CST",
+          title: "101 Workshop: Intro to Java with Gage",
+          time: "9:00 PM CST",
           location: "Whova",
           url: ""
         },
         {
           title: "Workshop: Utilizing Unity with Gene",
+          time: "10:30 PM CST",
+          location: "Whova",
+          url: ""
+        },
+        {
+          title: "101 Workshop: Intro to Python with Leon",
           time: "10:30 PM CST",
           location: "Whova",
           url: ""
@@ -214,12 +249,6 @@ const ScheduleConstants = {
       date: "March 27th",
       dayOfWeek: "Saturday",
       events: [
-        {
-          title: "Social: Bob Ross",
-          time: "1:30 AM CST",
-          location: "Whova",
-          url: ""
-        },
         {
           title: "Workshop: How to Get Twilio's API Up and Running in 30 Minutes with Anna",
           time: "9:00 AM CST",
@@ -251,25 +280,25 @@ const ScheduleConstants = {
           url: ""
         },
         {
-          title: "101 Workshop: C++ Crash Course with Nick",
-          time: "12:00 PM CST",
-          location: "Whova",
-          url: ""
-        },
-        {
           title: "TechData: Day in the Life of a Red Teamer",
           time: "12:00 PM CST",
           location: "Whova",
           url: ""
         },
         {
-          title: "Workshop: Deep Learning and Cyber Security with Luis",
-          time: "1:30 PM CST",
+          title: "101 Workshop: C++ Crash Course with Nick",
+          time: "12:00 PM CST",
           location: "Whova",
           url: ""
         },
         {
           title: "TechData: Day in the Life of a Blue Teamer",
+          time: "1:30 PM CST",
+          location: "Whova",
+          url: ""
+        },
+        {
+          title: "Workshop: Deep Learning and Cyber Security with Luis",
           time: "1:30 PM CST",
           location: "Whova",
           url: ""
@@ -307,6 +336,18 @@ const ScheduleConstants = {
         {
           title: "Workshop: Cloud Computing with Comfort",
           time: "6:00 PM CST",
+          location: "Whova",
+          url: ""
+        },
+        {
+          title: "USAF Cyber Security Challenges",
+          time: "7:30 PM CST",
+          location: "Whova",
+          url: ""
+        },
+        {
+          title: "MS Paint Bob Ross with MLH",
+          time: "8:00 PM CST",
           location: "Whova",
           url: ""
         },
