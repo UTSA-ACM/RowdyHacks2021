@@ -245,7 +245,7 @@ const ScheduleConstants = {
       events: [
         {
           title: "Social: Watch Party",
-          time: "3:30 AM CST",
+          time: "12:00 AM CST",
           location: "Whova",
           url: ""
         },
