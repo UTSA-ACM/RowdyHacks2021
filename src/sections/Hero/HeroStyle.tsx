@@ -79,6 +79,7 @@ const DateWrapper = styled.div`
 `;
 
 const QuoteImage = styled.img`
+  height: 50vh;
   width: 50%;
   z-index: 10;
   @media (max-width: 950px) {

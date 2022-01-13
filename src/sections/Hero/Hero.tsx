@@ -1,9 +1,5 @@
-import heroImage from "../../static/website-background.png";
 import React from "react";
-import useWindowWidth from "../../hooks/useWindowWidth";
-import useTimer from "../../hooks/useTimer";
 import {
-  HeroBg,
   HeroContainer,
   QuoteImage,
   HeroQuoteText,
@@ -11,16 +7,18 @@ import {
 } from "./HeroStyle";
 import { QuoteText, QuoteAuthor } from "../SectionConstant";
 import HeroTitle from "./HeroTitle";
+import heroHighlight from "../../static/quote_box.svg";
 
 function Hero() {
-  const screenWidth = useWindowWidth();
-  const time = useTimer();
-
   return (
     <>
       <HeroTitle />
       <HeroContainer>
-        <QuoteImage src={require("../../static/quote_box.svg")}/>
+        {/*<QuoteImage src={require("../../static/quote_box.svg")}/>*/}
+        <QuoteImage
+            src={heroHighlight}
+            alt="Main Hero Quote Box"
+        />
         <HeroQuoteText>{QuoteText}</HeroQuoteText>
         <HeroQuoteAuthor>{QuoteAuthor}</HeroQuoteAuthor>
       </HeroContainer>
