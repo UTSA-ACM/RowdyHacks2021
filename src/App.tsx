@@ -13,13 +13,14 @@ import {NavBarMargin} from "./components/NavBar/NavBarStyle";
 import LocationSection from "./sections/Location/LocationSection";
 
 const titleNames = [
+    {title: "Home", link: "https://www.rowdyhacks.org"},
     {title: "About", link: "/#about-nav"},
     {title: "FAQ", link: "/#faq-nav"},
-    {title: "Location", link: "/#location-nav"},
-    {title: "Schedule", link: "./#schedule"},
-    {title: "Mentors", link: "/#mentors-nav"},
+    // {title: "Location", link: "/#location-nav"},
+    // {title: "Schedule", link: "./#schedule"},
+    // {title: "Mentors", link: "/#mentors-nav"},
     {title: "Sponsors", link: "/#partners-nav"},
-    {title: "Updates", link: "./updates"},
+    // {title: "Updates", link: "./updates"},
     {title: "2020", link: "https://2020.rowdyhacks.org/"}
     // {title: "Community Partners", link: "https://defhacks.co/hackathons/global_2.0.html"}, //link: "https://defhacks.co/hackathons/global_2.0.html"
 ];

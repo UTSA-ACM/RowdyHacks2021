@@ -63,7 +63,7 @@ const MenuItemContainer = styled.a`
   transition: opacity 250ms ease-in-out 0s;
   cursor: pointer;
   @media (max-width: 800px) {
-    margin: 50px 0px;
+    margin: 25px 0px;
   }
 `;
 
